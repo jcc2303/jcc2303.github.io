@@ -2,9 +2,9 @@
 
 import React from 'react';
 
-const ResumePropTypes = require('../../prop_types/resume');
-const Random = require('../../utils/random');
-const Modal = require('./modal');
+import {projects, projectsSet} from '../../prop_types/resume';
+import {Random} from '../../utils/random';
+import Modal from './modal';
 
 export class Entry  extends React.Component {
 
@@ -50,10 +50,10 @@ export class Entry  extends React.Component {
     }
 };
 Entry.propTypes = {
-    entry: ResumePropTypes.projects
+    entry: projects
 }
 
-export class Portfolio  extends React.Component {
+export default class Portfolio  extends React.Component {
 
     render() {
         const portfolio = Random.shuffleArray(this.props.content).slice(0, 8);
@@ -77,6 +77,6 @@ export class Portfolio  extends React.Component {
 };
 
 Portfolio.propTypes = {
-    content: ResumePropTypes.projectsSet
+    content: projectsSet
 }
 

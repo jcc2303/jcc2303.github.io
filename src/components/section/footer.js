@@ -2,10 +2,10 @@
 
 import React from 'react';
 
-const ResumePropTypes = require('../../prop_types/resume');
-const SocialMedia = require('../social_media');
+import {basics} from '../../prop_types/resume';
+import SocialMedia from '../social_media';
 
-export class Footer  extends React.Component {
+export default class Footer  extends React.Component {
 
     render() {
         return (
@@ -46,5 +46,5 @@ export class Footer  extends React.Component {
 
 
 Footer.propTypes = {
-    content: ResumePropTypes.basics
+    content: basics
 }

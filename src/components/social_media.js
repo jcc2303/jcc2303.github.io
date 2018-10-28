@@ -24,7 +24,7 @@ function mapIcon(socialMedia) {
     }
 }
 
-export class SocialMedia  extends React.Component {
+export default class SocialMedia  extends React.Component {
 
     render() {
         return (

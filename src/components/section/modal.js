@@ -3,11 +3,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ReactModal = require('react-modal');
+import ReactModal from 'react-modal';
 
-const ResumePropTypes = require('../../prop_types/resume');
+import {projects} from '../../prop_types/resume';
 
-export class Modal  extends React.Component {
+export default class Modal  extends React.Component {
 
     render() {
         const style = {
@@ -46,7 +46,7 @@ export class Modal  extends React.Component {
 
 
 Modal.propTypes = {
-    entry: ResumePropTypes.publications,
+    entry: projects,
     isOpen: PropTypes.bool.isRequired,
     onRequestClose: PropTypes.func.isRequired
 }

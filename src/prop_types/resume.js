@@ -64,7 +64,7 @@ export const work = PropTypes.shape({
     position: PropTypes.string.isRequired,
     website: PropTypes.string.isRequired,
     startDate: PropTypes.string.isRequired,
-    endDate: PropTypes.string.isRequired,
+    endDate: PropTypes.string,
     summary: PropTypes.string.isRequired,
     highlights: bulletPoints
 });
@@ -91,7 +91,7 @@ export const education = PropTypes.shape({
     studyType: PropTypes.string.isRequired,
     startDate: PropTypes.string.isRequired,
     endDate: PropTypes.string.isRequired,
-    gpa: PropTypes.string.isRequired,
+    gpa: PropTypes.string,
     summary: PropTypes.string.isRequired,
     courses: bulletPoints
 });
@@ -132,13 +132,13 @@ export const skillDetailsSet = PropTypes.arrayOf(
     skillDetails
 );
 
-export const skills = PropTypes.shape({
+export const skill = PropTypes.shape({
     title: PropTypes.string.isRequired,
     description: bulletPoints,
     skillDetails: skillDetailsSet
 });
 export const skillsSet = PropTypes.arrayOf(
-    skills
+    skill
 ).isRequired;
 
 export const languages = PropTypes.shape({

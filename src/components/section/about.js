@@ -4,7 +4,7 @@ import React from 'react';
 
 const ResumePropTypes = require('../../prop_types/resume');
 
-export class About  extends React.Component {
+export default class About  extends React.Component {
 
     render() {
         return (

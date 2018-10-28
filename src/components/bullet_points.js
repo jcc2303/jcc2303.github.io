@@ -4,7 +4,7 @@ import React from 'react';
 
 const ResumePropTypes = require('../prop_types/resume');
 
-export class BulletPoints  extends React.Component {
+export default class BulletPoints  extends React.Component {
     render() {
         return (
             <div>

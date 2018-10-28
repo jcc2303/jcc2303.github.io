@@ -3,7 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export class Link  extends React.Component {
+export default class Link  extends React.Component {
     render() {
         return (
             <li>

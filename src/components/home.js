@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 import Loading from './loading';
 
@@ -17,7 +17,7 @@ export default class Home  extends React.Component{
 
     constructor(props) {
         super(props);        
-        console.log(props)
+        console.log('home',props)
         this.state = {
             resume: false
         };
@@ -25,7 +25,7 @@ export default class Home  extends React.Component{
 
     componentDidMount() {
         return request
-            .get('/public/resume.json') // this.props.route.config.resumePath
+            .get(this.props.config.resumePath)
             .end(function (error, response) {
                 console.log(response.body)
                 return error ? error : this.setState({
@@ -38,7 +38,7 @@ export default class Home  extends React.Component{
         return (
             <div>
                 <Header>
-                    <Navigation navigation={this.props.route.config.navigation}/>
+                    <Navigation navigation={this.props.config.navigation}/>
                     <Banner basics={this.state.resume.basics}/>
                     <ScrollDown/>
                 </Header>
@@ -67,11 +67,9 @@ export default class Home  extends React.Component{
 };
 
 
-// Home.propTypes = {
-//     route: PropTypes.shape({
-//         config: PropTypes.shape({
-//             resumePath: PropTypes.string.isRequired,
-//             navigation: PropTypes.object.isRequired
-//         }).isRequired
-//     }).isRequired
-// }
+Home.propTypes = {
+    config: PropTypes.shape({
+        resumePath: PropTypes.string.isRequired,
+        navigation: PropTypes.object.isRequired
+    }).isRequired
+}

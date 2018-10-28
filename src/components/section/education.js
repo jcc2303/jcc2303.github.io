@@ -2,12 +2,13 @@
 
 import React from 'react';
 
-const ResumePropTypes = require('../../prop_types/resume');
-const Datetime = require('../../utils/datetime');
+import {education, educationSet} from '../../prop_types/resume';
+import {Datetime} from '../../utils/datetime';
 
 export class Entry extends React.Component {
 
     render() {
+
         const startDate = Datetime.getDisplayFromDate(this.props.entry.startDate);
         const endDate = Datetime.getDisplayFromDate(this.props.entry.endDate);
         return (
@@ -28,10 +29,10 @@ export class Entry extends React.Component {
 };
 
 Entry.propTypes = {
-    entry: ResumePropTypes.education
+    entry: education
 }
 
-export class Education  extends React.Component {
+export default class Education  extends React.Component {
 
     render() {
         return (
@@ -56,6 +57,6 @@ export class Education  extends React.Component {
 };
 
 Education.propTypes = {
-    content: ResumePropTypes.educationSet
+    content: educationSet
 }
 

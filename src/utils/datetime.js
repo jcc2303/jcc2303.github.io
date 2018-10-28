@@ -1,5 +1,5 @@
 
-const moment = require('moment');
+import moment from 'moment';
 
 export const Datetime = {
     getDisplayFromDate: function (datetime) {

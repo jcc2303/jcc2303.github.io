@@ -219,6 +219,7 @@
       "studyType": "Bachelor",
       "startDate": "2000-03-01",
       "endDate": "2005-12-01",
+      "summary": "it was 5 intense years of study",
       "courses": [
         "Redes", "DDBB", "IA"
       ]
@@ -360,14 +361,20 @@
   ],
   "languages": [
     {
+      "name": "Spanish",
+      "level": "fluent",
       "language": "Spanish",
       "fluency": "Native speaker"
     },
     {
+      "name": "English",
+      "level": "fluent",
       "language": "English",
       "fluency": "Conversation"
     },
     {
+      "name": "French",
+      "level": "basic",
       "language": "French",
       "fluency": "Basic"
     }

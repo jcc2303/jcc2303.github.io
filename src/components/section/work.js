@@ -3,13 +3,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ResumePropTypes = require('../../prop_types/resume');
-const BulletPoints = require('../bullet_points');
-const Datetime = require('../../utils/datetime');
+import {work, workSet} from '../../prop_types/resume';
+import BulletPoints from '../bullet_points';
+import {Datetime} from '../../utils/datetime';
+console.log(Datetime)
 
 export class Entry  extends React.Component {
 
-    render() {
+    constructor(props){
+        super(props)
+        console.log('Work.Entry', props)
+    }
+
+    render() {        
         const startDate = Datetime.getDisplayFromDate(this.props.entry.startDate);
         const endDate = Datetime.getDisplayFromDate(this.props.entry.endDate);
         const index = this.props.index + 1;
@@ -39,10 +45,15 @@ export class Entry  extends React.Component {
 Entry.propTypes = {
     index: PropTypes.number.isRequired,
     total: PropTypes.number.isRequired,
-    entry: ResumePropTypes.work
+    entry: work
 }
 
-export class Work  extends React.Component {
+export default class Work  extends React.Component {
+
+    constructor(props){
+        super(props)
+        console.log('Work', props)
+    }
 
     render() {
         const numEntries = this.props.content.length;
@@ -69,5 +80,5 @@ export class Work  extends React.Component {
 
 
 Work.propTypes = {
-    content: ResumePropTypes.workSet
+    content: workSet
 }

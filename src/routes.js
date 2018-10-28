@@ -1,6 +1,7 @@
 
 import React from 'react';
-import {Router, Route} from 'react-router'; 
+import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom'; 
+// Router custom history
 
 // import Main from './components/main';
 import Home from './components/home';
@@ -8,24 +9,30 @@ import NotFound from './components/errors/not_found';
 
 
 
-
-import { createBrowserHistory } from 'history';
-
-const history = createBrowserHistory()
+// import { createBrowserHistory } from 'history';
+// const history = createBrowserHistory()
 
 export const Routes = {
+
+    
     get: function (config) {
+        let {navigation} = config
+
+        let navs = Object.keys(navigation).map(function(key, index) {
+            return <Link key={key} to={'/'+key}> {navigation[key]} </Link>
+        })
+
+        
         return (
-            <Router history={history}>
-                <Route path='/' component={Home}/>
-                <Route path='*' component={NotFound}/>
+            <Router>
+                <div>
+                    {navs}
+                    <Switch>
+                        <Route render={(props) => <Home {...props} config={config} />} />
+                        <Route path='*' component={NotFound}/>
+                    </Switch>
+                </div>
             </Router>
         );
     }
 };
-
-{/* <Route path='/' component={Main}>
-<Route path='*' component={NotFound}/>
-</Route> */}
-
-//                     <IndexRoute config={config} component={Home}/>

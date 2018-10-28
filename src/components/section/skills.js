@@ -81,7 +81,7 @@ Skill.propTypes = {
     summary: PropTypes.arrayOf(PropTypes.string).isRequired
 }
 
-export class Skills  extends React.Component {
+export default class Skills  extends React.Component {
     render() {
         return (
             <section id='skill'>

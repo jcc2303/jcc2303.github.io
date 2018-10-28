@@ -2,10 +2,16 @@
 
 import React from 'react';
 
-const Link = require('./link');
-const ResumePropTypes = require('../../prop_types/resume');
+import Link from './link';
+import {navigation} from '../../prop_types/resume';
 
 export default class Navigation  extends React.Component {
+
+    constructor(props){
+        super(props)
+        console.log('Navigation',props)
+
+    }
 
     render() {
         return (
@@ -26,6 +32,6 @@ export default class Navigation  extends React.Component {
 };
 
 Navigation.propTypes = {
-    navigation: ResumePropTypes.navigation
+    navigation: navigation
 }
 

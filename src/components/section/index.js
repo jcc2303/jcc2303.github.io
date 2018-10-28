@@ -2,22 +2,26 @@
 
 import React from 'react';
 
-const ResumePropTypes = require('../../prop_types/resume');
-const About = require('./about');
-const Work = require('./work');
-const Education = require('./education');
-const Skills = require('./skills');
-const Portfolio = require('./portfolio');
-const References = require('./references');
-const Footer = require('./footer');
+import About from './about';
+import Work from './work';
+import Education from './education';
+import Skills from './skills';
+import Portfolio from './portfolio';
+import References from './references';
+import Footer from './footer'; 
+
+import {basics, workSet, educationSet, skillsSet, languagesSet, projectsSet, referencesSet} from '../../prop_types/resume';
+
 
 export default class Section  extends React.Component {
 
     render() {
+
         const skillsContent = {
             skills: this.props.skills,
             languages: this.props.languages
         };
+        console.log('Section/index', this.props, skillsContent)
 
         return (
             <div>
@@ -35,11 +39,11 @@ export default class Section  extends React.Component {
 
 
 Section.propTypes = {
-    basics: ResumePropTypes.basics,
-    work: ResumePropTypes.workSet,
-    education: ResumePropTypes.educationSet,
-    skills: ResumePropTypes.skillsSet,
-    languages: ResumePropTypes.languagesSet,
-    portfolio: ResumePropTypes.publicationsSet,
-    references: ResumePropTypes.referencesSet
+    basics: basics,
+    work: workSet,
+    education: educationSet,
+    skills: skillsSet,
+    languages: languagesSet,
+    portfolio: projectsSet,  // publicationsSet
+    references: referencesSet
 }

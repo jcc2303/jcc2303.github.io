@@ -3,8 +3,10 @@
 import React from 'react';
 
 export default class Header extends React.Component{
-    getInitialState() {
-        return {
+
+    constructor(props) {
+        super(props)
+        this.state = {
             window: {
                 height: 0,
                 width: 0

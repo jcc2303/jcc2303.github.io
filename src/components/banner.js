@@ -2,11 +2,16 @@
 
 import React from 'react';
 
-const ResumePropTypes = require('../prop_types/resume');
-const SocialMedia = require('./social_media');
+import {basics}  from '../prop_types/resume';
+import SocialMedia from './social_media';
 
 export default class Banner  extends React.Component {
 
+    constructor(props){
+        super(props)
+        console.log('Banner',props)
+
+    }
     render() {
         return (
             <div className='row banner'>
@@ -26,5 +31,5 @@ export default class Banner  extends React.Component {
 
 
 Banner.propTypes = {
-    basics: ResumePropTypes.basics
+    basics: basics
 }

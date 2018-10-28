@@ -2,9 +2,9 @@
 
 import React from 'react';
 
-const Carousel = require('nuka-carousel');
+import Carousel from 'nuka-carousel';
 
-const ResumePropTypes = require('../../prop_types/resume');
+import {references, referencesSet} from '../../prop_types/resume';
 
 export class Entry  extends React.Component {
 
@@ -26,10 +26,10 @@ export class Entry  extends React.Component {
 };
 
 Entry.propTypes = {
-    entry: ResumePropTypes.references
+    entry: references
 }
 
-export class References  extends React.Component {
+export default class References  extends React.Component {
 
     render() {
         const carouselConfig = {
@@ -70,6 +70,6 @@ export class References  extends React.Component {
 };
 
 References.propTypes = {
-    content: ResumePropTypes.referencesSet
+    content: referencesSet
 }
 
