@@ -17,7 +17,7 @@ import {Routes} from './routes';
 function getResumePath() {
   console.log(window.location.hostname)
   
-    if (['localhost', '127.0.0.1'].indexOf(window.location.hostname) !== -1) {
+    if (['localhost', '127.0.0.1'].indexOf(window.location.hostname) === -1) {
         return '/resume.json';
     }
     return '/public/resume.json';
