@@ -19,9 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "git checkout deployment | true && git branch -D orphan-master | true ",
+    "pre-deploy": "git checkout deployment | true && git branch -D orphan-master | true ",
     "deploy": "git push -f origin `git subtree split --prefix build orphan-master`:master ",
-    "postdeploy": "git checkout deployment && git branch -D orphan-master"
+    "post-deploy": "git checkout deployment && git branch -D orphan-master"
   },
   "eslintConfig": {
     "extends": "react-app"
