@@ -43,15 +43,18 @@ let routes = Routes.get({
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <div className='main-container'>
-            {routes}        
-          </div>
-        </header>
-      </div>
+      <div className='main-container'>
+      {routes}        
+    </div>
     );
   }
 }
 
+
 export default App;
+
+
+// <div className="App">
+//   <header className="App-header">
+//   </header>
+// </div>

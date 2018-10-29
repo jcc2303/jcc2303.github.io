@@ -17,18 +17,18 @@ export default class Footer  extends React.Component {
                             <li>
                                 This site is developed in React.js by&nbsp;
                                 <a
-                                    href='https://suddi.github.io'
-                                    title='Sudharshan Ravindran'
+                                    href='https://jcc2303.github.io'
+                                    title='Javier Cabrera'
                                     target='_blank'
                                     rel='noopener noreferrer'>
-                                    Sudharshan Ravindran
+                                    Javier Cabrera
                                 </a> from the original design of Ceevee from&nbsp;
                                 <a
-                                    href='http://www.styleshout.com/'
+                                    href='http://www.tecla5.com/'
                                     title='Styleshout'
                                     target='_blank'
                                     rel='noopener noreferrer'>
-                                    Styleshout
+                                    Tecla5
                                 </a>
                             </li>
                         </ul>

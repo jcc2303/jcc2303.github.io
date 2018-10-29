@@ -17,7 +17,6 @@ export default class Home  extends React.Component{
 
     constructor(props) {
         super(props);        
-        console.log('home',props)
         this.state = {
             resume: false
         };
@@ -27,7 +26,6 @@ export default class Home  extends React.Component{
         return request
             .get(this.props.config.resumePath)
             .end(function (error, response) {
-                console.log(response.body)
                 return error ? error : this.setState({
                     resume: response.body
                 });

@@ -7,12 +7,6 @@ import {navigation} from '../../prop_types/resume';
 
 export default class Navigation  extends React.Component {
 
-    constructor(props){
-        super(props)
-        console.log('Navigation',props)
-
-    }
-
     render() {
         return (
             <nav id='nav-wrap' className='opaque'>

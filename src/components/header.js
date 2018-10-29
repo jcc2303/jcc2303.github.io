@@ -12,6 +12,7 @@ export default class Header extends React.Component{
                 width: 0
             }
         };
+        this.updateDimensions = this.updateDimensions.bind(this)
     }
 
     updateDimensions () {
@@ -23,11 +24,9 @@ export default class Header extends React.Component{
         });
     }
 
-    componentWillMount () {
-        this.updateDimensions();
-    }
-
+    
     componentDidMount() {
+        this.updateDimensions();
         return window.addEventListener('resize', this.updateDimensions);
     }
 

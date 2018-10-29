@@ -6,14 +6,8 @@ import PropTypes from 'prop-types';
 import {work, workSet} from '../../prop_types/resume';
 import BulletPoints from '../bullet_points';
 import {Datetime} from '../../utils/datetime';
-console.log(Datetime)
 
 export class Entry  extends React.Component {
-
-    constructor(props){
-        super(props)
-        console.log('Work.Entry', props)
-    }
 
     render() {        
         const startDate = Datetime.getDisplayFromDate(this.props.entry.startDate);
@@ -49,11 +43,6 @@ Entry.propTypes = {
 }
 
 export default class Work  extends React.Component {
-
-    constructor(props){
-        super(props)
-        console.log('Work', props)
-    }
 
     render() {
         const numEntries = this.props.content.length;

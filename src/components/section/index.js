@@ -16,12 +16,10 @@ import {basics, workSet, educationSet, skillsSet, languagesSet, projectsSet, ref
 export default class Section  extends React.Component {
 
     render() {
-
         const skillsContent = {
             skills: this.props.skills,
             languages: this.props.languages
         };
-        console.log('Section/index', this.props, skillsContent)
 
         return (
             <div>

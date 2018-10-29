@@ -6,12 +6,6 @@ import {basics}  from '../prop_types/resume';
 import SocialMedia from './social_media';
 
 export default class Banner  extends React.Component {
-
-    constructor(props){
-        super(props)
-        console.log('Banner',props)
-
-    }
     render() {
         return (
             <div className='row banner'>

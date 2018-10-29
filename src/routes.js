@@ -1,6 +1,6 @@
 
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom'; 
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'; // Link
 // Router custom history
 
 // import Main from './components/main';
@@ -16,17 +16,16 @@ export const Routes = {
 
     
     get: function (config) {
-        let {navigation} = config
-
-        let navs = Object.keys(navigation).map(function(key, index) {
-            return <Link key={key} to={'/'+key}> {navigation[key]} </Link>
-        })
+        // let {navigation} = config
+        // let navs = Object.keys(navigation).map(function(key, index) {
+        //     return <Link key={key} to={'/'+key}> {navigation[key]} </Link>
+        // })
 
         
         return (
             <Router>
                 <div>
-                    {navs}
+                    {/* {navs} */}
                     <Switch>
                         <Route render={(props) => <Home {...props} config={config} />} />
                         <Route path='*' component={NotFound}/>
