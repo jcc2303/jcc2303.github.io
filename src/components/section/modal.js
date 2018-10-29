@@ -7,6 +7,8 @@ import ReactModal from 'react-modal';
 
 import {projects} from '../../prop_types/resume';
 
+// ReactModal.setAppElement('#yourAppElement')
+
 export default class Modal  extends React.Component {
 
     render() {
@@ -17,7 +19,7 @@ export default class Modal  extends React.Component {
         };
 
         return (
-            <ReactModal className='popup-modal mfp-hide' isOpen={this.props.isOpen} onRequestClose={this.props.onRequestClose} style={style}>
+            <ReactModal className='popup-modal mfp-hide' isOpen={this.props.isOpen} onRequestClose={this.props.onRequestClose} style={style} ariaHideApp={false} >
                 <img
                     className='scale-with-grid'
                     src={this.props.entry.image.modal}

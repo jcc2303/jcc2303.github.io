@@ -13,6 +13,8 @@ export class Entry  extends React.Component {
         this.state = {
             modalOpen: false
         };
+        this.handleOpenModal = this.handleOpenModal.bind(this)
+        this.handleCloseModal = this.handleCloseModal.bind(this)
     }
 
     handleOpenModal() {

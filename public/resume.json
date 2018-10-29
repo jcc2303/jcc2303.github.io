@@ -229,39 +229,107 @@
   "publications": [],
   "projects": [
     {
-        "name": "<PUBLICATION_NAME>",
-        "publisher": "<PUBLISHER>",
-        "category": "<CATEGORY>",
-        "releaseDate": "<RELEASE_DATE>",
-        "website": "<WEBSITE>",
-        "summary": "<SUMMARY>",
+        "name": "VueGraphqlHouse",
+        "publisher": "Javier Cabrera",
+        "category": "Real State",
+        "releaseDate": "2018",
+        "website": "http://t5-houses.herokuapp.com/",
+        "summary": "js | node | express | graphql | mongo",
         "image": {
-            "modal": "<MODAL_IMAGE>",
-            "thumb": "<THUMBNAIL_IMAGE>"
+            "modal": "images/loader.gif",
+            "thumb": "images/loader.gif"
         },
         "keywords": [
-            "<KEYWORD_1>",
-            "<KEYWORD_2>",
-            "<KEYWORD_3>"
+            "js | node | express | graphql | mongo"
         ]
-    }
+    },
+    {
+      "name": "Freewater",
+      "publisher": "Javier Cabrera",
+      "category": "",
+      "releaseDate": "2018",
+      "website": "http://freewater.herokuapp.com/",
+      "summary": "'js', 'polymer', 'firebase'",
+      "image": {
+        "modal": "images/loader.gif",
+        "thumb": "images/loader.gif"
+      },
+      "keywords": [
+        "js | node | express | graphql | mongo"
+      ]
+    }, {
+      "name": "Blog",
+      "publisher": "Javier Cabrera",
+      "category": "",
+      "releaseDate": "2018",
+      "website": "http://blog.tecla5.com/",
+      "summary": "'js', 'node'",
+      "image": {
+        "modal": "images/loader.gif",
+        "thumb": "images/loader.gif"
+      },
+      "keywords": [
+        "js | node | express | graphql | mongo"
+      ]
+    }, {
+      "name": "Comic",
+      "publisher": "Javier Cabrera",
+      "category": "",
+      "releaseDate": "2018",
+      "website": "http://comic.tecla5.com/",
+      "summary": "'js', 'clojurescript'",
+      "image": {
+        "modal": "images/loader.gif",
+        "thumb": "images/loader.gif"
+      },
+      "keywords": [
+        "js | node | express | graphql | mongo"
+      ]
+    }, {
+      "name": "Sumary",
+      "publisher": "Javier Cabrera",
+      "category": "",
+      "releaseDate": "2018",
+      "website": "https://jcc2303.github.io/summary/#/",
+      "summary": "'js'",
+      "image": {
+        "modal": "images/loader.gif",
+        "thumb": "images/loader.gif"
+      },
+      "keywords": [
+        "js | node | express | graphql | mongo"
+      ]
+    }, {
+      "name": "cashout",
+      "publisher": "Javier Cabrera",
+      "category": "",
+      "releaseDate": "2018",
+      "website": "http://cashout-t5.herokuapp.com/",
+      "summary": "'js'",
+      "image": {
+        "modal": "images/loader.gif",
+        "thumb": "images/loader.gif"
+      },
+      "keywords": [
+        "js | node | express | graphql | mongo"
+      ]
+    }    
   ],
   "skills": [
     {
       "title": "JS Web Development",
       "description": [
-          "<DESCRIPTION_1>",
-          "<DESCRIPTION_2>",
-          "<DESCRIPTION_3>"
+          "Web development with js and java"
       ],
       "skillDetails": [
           {
-              "name": "<SKILL_NAME>",
-              "level": "<SKILL_LEVEL>",
+              "name": "JS Web Development",
+              "level": "90",
               "keywords": [
-                  "<KEYWORD_1>",
-                  "<KEYWORD_2>",
-                  "<KEYWORD_3>"
+                "HTML",
+                "CSS",
+                "Javascript",
+                "Java"
               ]
           }
       ], 
@@ -275,20 +343,21 @@
       ]
     },
     {
-      "title": "JS Web Development",
+      "title": "Web Testing",
       "description": [
-          "<DESCRIPTION_1>",
-          "<DESCRIPTION_2>",
-          "<DESCRIPTION_3>"
+          "learned different frameworks for e2e testing"
       ],
       "skillDetails": [
           {
-              "name": "<SKILL_NAME>",
-              "level": "<SKILL_LEVEL>",
+              "name": "Web Testing",
+              "level": "80",
               "keywords": [
-                  "<KEYWORD_1>",
-                  "<KEYWORD_2>",
-                  "<KEYWORD_3>"
+                "Test",
+                "E2E",
+                "CI",
+                "CD",
+                "Test Runner",
+                "Automation"
               ]
           }
       ], 
@@ -304,20 +373,19 @@
       ]
     },
     {
-      "title": "JS Web Development",
+      "title": "Persistence Data",
       "description": [
-          "<DESCRIPTION_1>",
-          "<DESCRIPTION_2>",
-          "<DESCRIPTION_3>"
+          "Learned different ways to store data and retrieve it"
       ],
       "skillDetails": [
           {
-              "name": "<SKILL_NAME>",
-              "level": "<SKILL_LEVEL>",
+              "name": "Persistence Data",
+              "level": "60",
               "keywords": [
-                  "<KEYWORD_1>",
-                  "<KEYWORD_2>",
-                  "<KEYWORD_3>"
+                "DMSDB",
+                "ORM",
+                "PL/SQL",
+                "NoSQL"
               ]
           }
       ], 
@@ -331,20 +399,20 @@
       ]
     },
     {
-      "title": "JS Web Development",
+      "title": "Infrastructure",
       "description": [
-          "<DESCRIPTION_1>",
-          "<DESCRIPTION_2>",
-          "<DESCRIPTION_3>"
+          "Learned about SO and ways to construct infraestructures"
       ],
       "skillDetails": [
           {
-              "name": "<SKILL_NAME>",
-              "level": "<SKILL_LEVEL>",
+              "name": "Infrastructure",
+              "level": "50",
               "keywords": [
-                  "<KEYWORD_1>",
-                  "<KEYWORD_2>",
-                  "<KEYWORD_3>"
+                "Linux",
+                "Virtual Machines",
+                "Containers",
+                "Shell",
+                "Server"
               ]
           }
       ], 
@@ -402,14 +470,14 @@
     {
       "name": "Jean Zambrano",
       "reference": "Javier is creative, perfect for innnovate",
-      "position": "<POSITION>",
-      "company": "<COMPANY>"
+      "position": "DevOps",
+      "company": "TDA"
     },
     {
       "name": "Kristian Madrup",
       "reference": "Javier is focused to find good tech solutions",
-      "position": "<POSITION>",
-      "company": "<COMPANY>"
+      "position": "CTO",
+      "company": "SMI"
 }
   ]
 }
