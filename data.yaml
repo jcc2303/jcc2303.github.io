@@ -39,6 +39,26 @@
         - "We develop both multi- and single page web apps (MPAs & SPAs)."
         - "We deliver complete front-to-back solutions using our powerful custom tech stack."
         - "mongo | docker | graphql | vue | node | express | heroku | circleci | bitbucket "
+    -
+      company: SCYTL
+      position: Frontend/Javascript
+      website: http://www.scytl.net/
+      startDate: 2019-11-01
+      summary: "Leading the transformation of the elections industry by making voting more accessible, efficient, transparent, auditable and secure"
+      highlights: 
+        - "Upgrading all system to es7 and modernization with care"
+        - " git | javascript | angularjs | java | ansible | QA | Design "    
+    -
+      company: Audi
+      position: Architect/Java
+      website: http://www.audi.com/
+      startDate: 2018-12-27
+      endDate: 2019-09-01
+      summary: "Audi Company over IT Deparment based in Barcelona, Spain."
+      highlights: 
+        - "Architect for backend and help to define the flow to deployment"
+        - "Design of image and containerization with docker"
+        - " svn | git | java | docker | QA | Design | Leader "
     - 
       company: "Nestle"
       position: "QA/Js"

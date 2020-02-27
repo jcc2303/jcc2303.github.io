@@ -49,6 +49,30 @@
       ]
     },
     {
+      "company": "SCYTL",
+      "position": "Frontend/Javascript",
+      "website": "http://www.scytl.net/",
+      "startDate": "2019-11-01T00:00:00.000Z",
+      "summary": "Leading the transformation of the elections industry by making voting more accessible, efficient, transparent, auditable and secure",
+      "highlights": [
+        "Upgrading all system to es7 and modernization with care",
+        " git | javascript | angularjs | java | ansible | QA | Design "
+      ]
+    },
+    {
+      "company": "Audi",
+      "position": "Architect/Java",
+      "website": "http://www.audi.com/",
+      "startDate": "2018-12-27T00:00:00.000Z",
+      "endDate": "2019-09-01T00:00:00.000Z",
+      "summary": "Audi Company over IT Deparment based in Barcelona, Spain.",
+      "highlights": [
+        "Architect for backend and help to define the flow to deployment",
+        "Design of image and containerization with docker",
+        " svn | git | java | docker | QA | Design | Leader "
+      ]
+    },
+    {
       "company": "Nestle",
       "position": "QA/Js",
       "website": "http://www.nestle.com/",
@@ -221,7 +245,9 @@
       "endDate": "2005-12-01",
       "summary": "it was 5 intense years of study",
       "courses": [
-        "Redes", "DDBB", "IA"
+        "Redes",
+        "DDBB",
+        "IA"
       ]
     }
   ],
@@ -229,19 +255,19 @@
   "publications": [],
   "projects": [
     {
-        "name": "VueGraphqlHouse",
-        "publisher": "Javier Cabrera",
-        "category": "Real State",
-        "releaseDate": "2018",
-        "website": "http://t5-houses.herokuapp.com/",
-        "summary": "js | node | express | graphql | mongo",
-        "image": {
-            "modal": "images/loader.gif",
-            "thumb": "images/loader.gif"
-        },
-        "keywords": [
-            "js | node | express | graphql | mongo"
-        ]
+      "name": "VueGraphqlHouse",
+      "publisher": "Javier Cabrera",
+      "category": "Real State",
+      "releaseDate": "2018",
+      "website": "http://t5-houses.herokuapp.com/",
+      "summary": "js | node | express | graphql | mongo",
+      "image": {
+        "modal": "images/loader.gif",
+        "thumb": "images/loader.gif"
+      },
+      "keywords": [
+        "js | node | express | graphql | mongo"
+      ]
     },
     {
       "name": "Freewater",
@@ -257,7 +283,8 @@
       "keywords": [
         "js | node | express | graphql | mongo"
       ]
-    }, {
+    },
+    {
       "name": "Blog",
       "publisher": "Javier Cabrera",
       "category": "",
@@ -271,7 +298,8 @@
       "keywords": [
         "js | node | express | graphql | mongo"
       ]
-    }, {
+    },
+    {
       "name": "Comic",
       "publisher": "Javier Cabrera",
       "category": "",
@@ -285,7 +313,8 @@
       "keywords": [
         "js | node | express | graphql | mongo"
       ]
-    }, {
+    },
+    {
       "name": "Sumary",
       "publisher": "Javier Cabrera",
       "category": "",
@@ -299,7 +328,8 @@
       "keywords": [
         "js | node | express | graphql | mongo"
       ]
-    }, {
+    },
+    {
       "name": "cashout",
       "publisher": "Javier Cabrera",
       "category": "",
@@ -313,26 +343,26 @@
       "keywords": [
         "js | node | express | graphql | mongo"
       ]
-    }    
+    }
   ],
   "skills": [
     {
       "title": "JS Web Development",
       "description": [
-          "Web development with js and java"
+        "Web development with js and java"
       ],
       "skillDetails": [
-          {
-              "name": "JS Web Development",
-              "level": "90",
-              "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript",
-                "Java"
-              ]
-          }
-      ], 
+        {
+          "name": "JS Web Development",
+          "level": "90",
+          "keywords": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Java"
+          ]
+        }
+      ],
       "name": "JS Web Development",
       "level": "Master",
       "keywords": [
@@ -345,22 +375,22 @@
     {
       "title": "Web Testing",
       "description": [
-          "learned different frameworks for e2e testing"
+        "learned different frameworks for e2e testing"
       ],
       "skillDetails": [
-          {
-              "name": "Web Testing",
-              "level": "80",
-              "keywords": [
-                "Test",
-                "E2E",
-                "CI",
-                "CD",
-                "Test Runner",
-                "Automation"
-              ]
-          }
-      ], 
+        {
+          "name": "Web Testing",
+          "level": "80",
+          "keywords": [
+            "Test",
+            "E2E",
+            "CI",
+            "CD",
+            "Test Runner",
+            "Automation"
+          ]
+        }
+      ],
       "name": "Web Testing",
       "level": "Master",
       "keywords": [
@@ -375,20 +405,20 @@
     {
       "title": "Persistence Data",
       "description": [
-          "Learned different ways to store data and retrieve it"
+        "Learned different ways to store data and retrieve it"
       ],
       "skillDetails": [
-          {
-              "name": "Persistence Data",
-              "level": "60",
-              "keywords": [
-                "DMSDB",
-                "ORM",
-                "PL/SQL",
-                "NoSQL"
-              ]
-          }
-      ], 
+        {
+          "name": "Persistence Data",
+          "level": "60",
+          "keywords": [
+            "DMSDB",
+            "ORM",
+            "PL/SQL",
+            "NoSQL"
+          ]
+        }
+      ],
       "name": "Persistence Data",
       "level": "Master",
       "keywords": [
@@ -401,21 +431,21 @@
     {
       "title": "Infrastructure",
       "description": [
-          "Learned about SO and ways to construct infraestructures"
+        "Learned about SO and ways to construct infraestructures"
       ],
       "skillDetails": [
-          {
-              "name": "Infrastructure",
-              "level": "50",
-              "keywords": [
-                "Linux",
-                "Virtual Machines",
-                "Containers",
-                "Shell",
-                "Server"
-              ]
-          }
-      ], 
+        {
+          "name": "Infrastructure",
+          "level": "50",
+          "keywords": [
+            "Linux",
+            "Virtual Machines",
+            "Containers",
+            "Shell",
+            "Server"
+          ]
+        }
+      ],
       "name": "Infrastructure",
       "level": "Master",
       "keywords": [
@@ -454,7 +484,7 @@
         "Competition",
         "Social"
       ]
-    },    
+    },
     {
       "name": "Dance",
       "keywords": [
@@ -478,6 +508,6 @@
       "reference": "Javier is focused to find good tech solutions",
       "position": "CTO",
       "company": "SMI"
-}
+    }
   ]
 }
