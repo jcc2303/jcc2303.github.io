@@ -18,8 +18,10 @@ function getResumePath() {
   console.log(window.location.hostname)
   
     if (['localhost', '127.0.0.1'].indexOf(window.location.hostname) === -1) {
-        return '/resume.json';
+      console.log('prod')
+      return '/resume.json';
     }
+    console.log('dev')
     return '/public/resume.json';
 }
 
