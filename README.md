@@ -20,6 +20,7 @@ npm run serve
 
 npm run data
 
+export resume.json and import pdf to public from https://resumake.io/
 
 npm run deploy
 
