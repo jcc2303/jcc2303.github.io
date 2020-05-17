@@ -287,19 +287,7 @@
   skills: 
     - 
       title: "JS Web Development"
-      description: 
-        - "Web development with js and java"
-      skillDetails: 
-        - 
-          name: "JS Web Development"
-          level: "90"
-          keywords: 
-            - "HTML"
-            - "CSS"
-            - "Javascript"
-            - "Java"
-      name: "JS Web Development"
-      level: "Master"
+      description: "Web development with js and java"
       keywords: 
         - "HTML"
         - "CSS"
@@ -307,21 +295,7 @@
         - "Java"
     - 
       title: "Web Testing"
-      description: 
-        - "learned different frameworks for e2e testing"
-      skillDetails: 
-        - 
-          name: "Web Testing"
-          level: "80"
-          keywords: 
-            - "Test"
-            - "E2E"
-            - "CI"
-            - "CD"
-            - "Test Runner"
-            - "Automation"
-      name: "Web Testing"
-      level: "Master"
+      description: "learned different frameworks for e2e testing"
       keywords: 
         - "Test"
         - "E2E"
@@ -331,19 +305,7 @@
         - "Automation"
     - 
       title: "Persistence Data"
-      description: 
-        - "Learned different ways to store data and retrieve it"
-      skillDetails: 
-        - 
-          name: "Persistence Data"
-          level: "60"
-          keywords: 
-            - "DMSDB"
-            - "ORM"
-            - "PL/SQL"
-            - "NoSQL"
-      name: "Persistence Data"
-      level: "Master"
+      description: "Learned different ways to store data and retrieve it"
       keywords: 
         - "DMSDB"
         - "ORM"
@@ -351,20 +313,7 @@
         - "NoSQL"
     - 
       title: "Infrastructure"
-      description: 
-        - "Learned about SO and ways to construct infraestructures"
-      skillDetails: 
-        - 
-          name: "Infrastructure"
-          level: "50"
-          keywords: 
-            - "Linux"
-            - "Virtual Machines"
-            - "Containers"
-            - "Shell"
-            - "Server"
-      name: "Infrastructure"
-      level: "Master"
+      description: "Learned about SO and ways to construct infraestructures"
       keywords: 
         - "Linux"
         - "Virtual Machines"
