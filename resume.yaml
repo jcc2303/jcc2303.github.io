@@ -3,7 +3,7 @@
     name: "Javier Cabrera"
     label: "Fullstack JS and Java Developer"
     picture: "https://avatars0.githubusercontent.com/u/3462917?s=460&v=4"
-    email: "cabrera.javier@gmail.com"
+    email: "cabrerajavier@gmail.com"
     phone: "(+34) 634550886"
     website: "https://jcc2303.github.io"
     summary: 
@@ -27,6 +27,162 @@
         network: "linkedIn"
         username: "jcabrera"
         url: "https://www.linkedin.com/in/javier-cabrera-79bb4119/"
+
+  interests: 
+    - 
+      name: "Chess"
+      keywords: 
+        - "Competition"
+        - "Social"
+    - 
+      name: "Dance"
+      keywords: 
+        - "Salsa"
+        - "Bachata"
+        - "Hip-Hop"
+        - "Kizomba"
+        - "Tango"
+  references: 
+    - 
+      name: "Jean Zambrano"
+      reference: "Javier is creative, perfect for innnovate"
+      position: "DevOps"
+      company: "TDA"
+    - 
+      name: "Kristian Madrup"
+      reference: "Javier is focused to find good tech solutions"
+      position: "CTO"
+      company: "SMI"
+      
+  languages: 
+    - 
+      name: "Spanish"
+      level: "fluent"
+      language: "Spanish"
+      fluency: "Native speaker"
+    - 
+      name: "English"
+      level: "fluent"
+      language: "English"
+      fluency: "Conversation"
+    - 
+      name: "French"
+      level: "basic"
+      language: "French"
+      fluency: "Basic"
+
+  education: 
+    - 
+      institution: "University of Central of Venezuela"
+      area: "Information Technology"
+      studyType: "Bachelor"
+      startDate: "2000-03-01"
+      endDate: "2005-12-01"
+      summary: "it was 5 intense years of study"
+      courses: 
+        - "Redes"
+        - "DDBB"
+        - "IA"
+
+  awards: []
+  publications: []
+                    
+  projects: 
+    - 
+      name: "VueGraphqlHouse"
+      publisher: "Javier Cabrera"
+      category: "Real State"
+      releaseDate: "2018"
+      website: "http://t5-houses.herokuapp.com/"
+      summary: "It is an example of complete stack, using graphql, where brings maximun flexibility"
+      keywords: !!seq [ js , node , express , graphql , mongo ]
+    - 
+      name: "Freewater"
+      publisher: "Javier Cabrera"
+      category: ""
+      releaseDate: "2018"
+      website: "http://freewater.herokuapp.com/"
+      summary: "example of polimer from google with the idea to show tap water on any city"
+      keywords: !!seq [ js , node , express , graphql , mongo ]
+    - 
+      name: "Blog"
+      publisher: "Javier Cabrera"
+      category: ""
+      releaseDate: "2018"
+      website: "http://blog.tecla5.com/"
+      summary: "the idea of place to express and share with the people"
+      keywords: !!seq [ js , node , express , graphql , mongo ]
+    - 
+      name: "Comic"
+      publisher: "Javier Cabrera"
+      category: ""
+      releaseDate: "2018"
+      website: "http://comic.tecla5.com/"
+      summary: "Experiment with ClojureScript"
+      keywords: !!seq [ js , node , express , graphql , mongo ]
+    - 
+      name: "Sumary"
+      publisher: "Javier Cabrera"
+      category: ""
+      releaseDate: "2018"
+      website: "https://jcc2303.github.io/summary/#/"
+      summary: "An example of create component and play with videos"
+      keywords: !!seq [ js , node , express , graphql , mongo ]
+    - 
+      name: "cashout"
+      publisher: "Javier Cabrera"
+      category: ""
+      releaseDate: "2018"
+      website: "http://cashout-t5.herokuapp.com/"
+      summary: "An example to show client for bets"
+      keywords: !!seq [ js , node , express , graphql , mongo ]
+  skills: 
+    - 
+      title: "JS Web Development"
+      description: "Web development with js and java"
+      keywords: 
+        - "HTML"
+        - "CSS"
+        - "Javascript"
+        - "Java"
+    - 
+      title: "Web Testing"
+      description: "learned different frameworks for e2e testing"
+      keywords: 
+        - "Test"
+        - "E2E"
+        - "CI"
+        - "CD"
+        - "Test Runner"
+        - "Automation"
+    - 
+      title: "Persistence Data"
+      description: "Learned different ways to store data and retrieve it"
+      keywords: 
+        - "DMSDB"
+        - "ORM"
+        - "PL/SQL"
+        - "NoSQL"
+    - 
+      title: "Infrastructure"
+      description: "Learned about SO and ways to construct infraestructures"
+      keywords: 
+        - "Linux"
+        - "Virtual Machines"
+        - "Containers"
+        - "Shell"
+        - "Server"
+  volunteer: 
+    - 
+      organization: "Coderworks"
+      position: "Teacher"
+      website: "https://codeworks.me/"
+      startDate: "2015-07-07"
+      endDate: "2016-01-30"
+      summary: "share our vision, support Codeworks’ mission, and collaborate with our educational activities on multiple levels."
+      highlights: 
+        - "assistant for events inside"
+      stack:  !!seq [ javascript, react, mongodb, express, html, css ]
   work: 
     - 
       company: "tecla5"
@@ -194,155 +350,4 @@
       highlights: 
         - "maintenance and creation functionalities over post-paid mobile architecture system developed in J2EE"
       stack:  !!seq [ svn, java, EJB, JMS, J2EE, JTA, Oracle ]
-  volunteer: 
-    - 
-      organization: "Coderworks"
-      position: "Teacher"
-      website: "https://codeworks.me/"
-      startDate: "2015-07-07"
-      endDate: "2016-01-30"
-      summary: "share our vision, support Codeworks’ mission, and collaborate with our educational activities on multiple levels."
-      highlights: 
-        - "assistant for events inside"
-      stack:  !!seq [ javascript, react, mongodb, express, html, css ]
-  education: 
-    - 
-      institution: "University of Central of Venezuela"
-      area: "Information Technology"
-      studyType: "Bachelor"
-      startDate: "2000-03-01"
-      endDate: "2005-12-01"
-      summary: "it was 5 intense years of study"
-      courses: 
-        - "Redes"
-        - "DDBB"
-        - "IA"
-  awards: []
-  publications: []
-  projects: 
-    - 
-      name: "VueGraphqlHouse"
-      publisher: "Javier Cabrera"
-      category: "Real State"
-      releaseDate: "2018"
-      website: "http://t5-houses.herokuapp.com/"
-      summary: "It is an example of complete stack, using graphql, where brings maximun flexibility"
-      keywords: !!seq [ js , node , express , graphql , mongo ]
-    - 
-      name: "Freewater"
-      publisher: "Javier Cabrera"
-      category: ""
-      releaseDate: "2018"
-      website: "http://freewater.herokuapp.com/"
-      summary: "example of polimer from google with the idea to show tap water on any city"
-      keywords: !!seq [ js , node , express , graphql , mongo ]
-    - 
-      name: "Blog"
-      publisher: "Javier Cabrera"
-      category: ""
-      releaseDate: "2018"
-      website: "http://blog.tecla5.com/"
-      summary: "the idea of place to express and share with the people"
-      keywords: !!seq [ js , node , express , graphql , mongo ]
-    - 
-      name: "Comic"
-      publisher: "Javier Cabrera"
-      category: ""
-      releaseDate: "2018"
-      website: "http://comic.tecla5.com/"
-      summary: "Experiment with ClojureScript"
-      keywords: !!seq [ js , node , express , graphql , mongo ]
-    - 
-      name: "Sumary"
-      publisher: "Javier Cabrera"
-      category: ""
-      releaseDate: "2018"
-      website: "https://jcc2303.github.io/summary/#/"
-      summary: "An example of create component and play with videos"
-      keywords: !!seq [ js , node , express , graphql , mongo ]
-    - 
-      name: "cashout"
-      publisher: "Javier Cabrera"
-      category: ""
-      releaseDate: "2018"
-      website: "http://cashout-t5.herokuapp.com/"
-      summary: "An example to show client for bets"
-      keywords: !!seq [ js , node , express , graphql , mongo ]
-  skills: 
-    - 
-      title: "JS Web Development"
-      description: "Web development with js and java"
-      keywords: 
-        - "HTML"
-        - "CSS"
-        - "Javascript"
-        - "Java"
-    - 
-      title: "Web Testing"
-      description: "learned different frameworks for e2e testing"
-      keywords: 
-        - "Test"
-        - "E2E"
-        - "CI"
-        - "CD"
-        - "Test Runner"
-        - "Automation"
-    - 
-      title: "Persistence Data"
-      description: "Learned different ways to store data and retrieve it"
-      keywords: 
-        - "DMSDB"
-        - "ORM"
-        - "PL/SQL"
-        - "NoSQL"
-    - 
-      title: "Infrastructure"
-      description: "Learned about SO and ways to construct infraestructures"
-      keywords: 
-        - "Linux"
-        - "Virtual Machines"
-        - "Containers"
-        - "Shell"
-        - "Server"
-  languages: 
-    - 
-      name: "Spanish"
-      level: "fluent"
-      language: "Spanish"
-      fluency: "Native speaker"
-    - 
-      name: "English"
-      level: "fluent"
-      language: "English"
-      fluency: "Conversation"
-    - 
-      name: "French"
-      level: "basic"
-      language: "French"
-      fluency: "Basic"
-  interests: 
-    - 
-      name: "Chess"
-      keywords: 
-        - "Competition"
-        - "Social"
-    - 
-      name: "Dance"
-      keywords: 
-        - "Salsa"
-        - "Bachata"
-        - "Hip-Hop"
-        - "Kizomba"
-        - "Tango"
-  references: 
-    - 
-      name: "Jean Zambrano"
-      reference: "Javier is creative, perfect for innnovate"
-      position: "DevOps"
-      company: "TDA"
-    - 
-      name: "Kristian Madrup"
-      reference: "Javier is focused to find good tech solutions"
-      position: "CTO"
-      company: "SMI"
 
