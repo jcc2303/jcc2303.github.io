@@ -121,6 +121,14 @@
                     
   projects: 
     - 
+      name: "Summary Player"
+      publisher: "Javier Cabrera"
+      category: "video"
+      releaseDate: "2021"
+      website: "https://jcc2303.github.io/summary-player/#/"
+      summary: "play videos, make resume, save and share it"
+      keywords: !!seq [ js , svelte , tailwindcss ]
+    - 
       name: "VueGraphqlHouse"
       publisher: "Javier Cabrera"
       category: "Real State"
@@ -129,12 +137,12 @@
       summary: "It is an example of complete stack, using graphql, where brings maximun flexibility"
       keywords: !!seq [ js , node , express , graphql , mongo ]
     - 
-      name: "Freewater"
+      name: "cashout"
       publisher: "Javier Cabrera"
       category: ""
       releaseDate: "2018"
-      website: "http://freewater.herokuapp.com/"
-      summary: "example of polimer from google with the idea to show tap water on any city"
+      website: "http://cashout-t5.herokuapp.com/"
+      summary: "An example to show client for bets"
       keywords: !!seq [ js , node , express , graphql , mongo ]
     - 
       name: "Blog"
@@ -145,28 +153,20 @@
       summary: "the idea of place to express and share with the people"
       keywords: !!seq [ js , node , express , graphql , mongo ]
     - 
+      name: "Freewater"
+      publisher: "Javier Cabrera"
+      category: ""
+      releaseDate: "2018"
+      website: "http://freewater.herokuapp.com/"
+      summary: "example of polimer from google with the idea to show tap water on any city"
+      keywords: !!seq [ js , node , express , graphql , mongo ]  
+    - 
       name: "Comic"
       publisher: "Javier Cabrera"
       category: ""
       releaseDate: "2018"
       website: "http://comic.tecla5.com/"
       summary: "Experiment with ClojureScript"
-      keywords: !!seq [ js , node , express , graphql , mongo ]
-    - 
-      name: "Sumary"
-      publisher: "Javier Cabrera"
-      category: ""
-      releaseDate: "2018"
-      website: "https://jcc2303.github.io/summary/#/"
-      summary: "An example of create component and play with videos"
-      keywords: !!seq [ js , node , express , graphql , mongo ]
-    - 
-      name: "cashout"
-      publisher: "Javier Cabrera"
-      category: ""
-      releaseDate: "2018"
-      website: "http://cashout-t5.herokuapp.com/"
-      summary: "An example to show client for bets"
       keywords: !!seq [ js , node , express , graphql , mongo ]
   skills: 
     - 
