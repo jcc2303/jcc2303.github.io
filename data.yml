@@ -90,17 +90,14 @@
     - 
       name: "Spanish"
       level: "fluent"
-      language: "Spanish"
       fluency: "Native speaker"
     - 
       name: "English"
       level: "fluent"
-      language: "English"
       fluency: "Conversation"
     - 
       name: "French"
       level: "basic"
-      language: "French"
       fluency: "Basic"
 
   education: 
@@ -215,7 +212,7 @@
       highlights: 
         - "assistant for events inside"
       stack:  !!seq [ javascript, react, mongodb, express, html, css ]
-  work: 
+  works: 
     - 
       company: "tecla5"
       position: "CEO/JsDeveloper"
