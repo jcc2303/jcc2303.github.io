@@ -118,11 +118,27 @@
                     
   projects: 
     - 
+      name: "time-life"
+      publisher: "Javier Cabrera"
+      category: "calculation"
+      releaseDate: "2020"
+      website: "https://jcc2303.github.io/time-life/"
+      summary: "play videos, make resume, save and share it"
+      keywords: !!seq [ js , svelte , tailwindcss ]
+    - 
+      name: "sign-language"
+      publisher: "Javier Cabrera"
+      category: "AI"
+      releaseDate: "2020"
+      website: "https://jcc2303.github.io/sign-language/"
+      summary: "camera, tensorflow, web components"
+      keywords: !!seq [ js , svelte , tailwindcss, ai, tensorflow ]
+    - 
       name: "Summary Player"
       publisher: "Javier Cabrera"
       category: "video"
       releaseDate: "2021"
-      website: "https://jcc2303.github.io/summary-player/#/"
+      website: "https://jcc2303.github.io/summary-player/"
       summary: "play videos, make resume, save and share it"
       keywords: !!seq [ js , svelte , tailwindcss ]
     - 
@@ -156,7 +172,7 @@
       releaseDate: "2018"
       website: "http://freewater.herokuapp.com/"
       summary: "example of polimer from google with the idea to show tap water on any city"
-      keywords: !!seq [ js , node , express , graphql , mongo ]  
+      keywords: !!seq [ js , node , express , polymer , mongo ]  
     - 
       name: "Comic"
       publisher: "Javier Cabrera"
@@ -164,7 +180,35 @@
       releaseDate: "2018"
       website: "http://comic.tecla5.com/"
       summary: "Experiment with ClojureScript"
-      keywords: !!seq [ js , node , express , graphql , mongo ]
+      keywords: !!seq [ js , clojure ]
+
+  portfolio:
+    - 
+      name: "Reinaldo Web Site"
+      publisher: "Javier Cabrera"
+      category: "Personal Page"
+      releaseDate: "2020"
+      website: "http://reyemp.github.io/"
+      summary: "Personal Page"
+      keywords: !!seq [ js , html, css ]
+    - 
+      name: "Exequiel Web Site"
+      publisher: "Javier Cabrera"
+      category: "Personal Page"
+      releaseDate: "2020"
+      website: "http://exequielab.github.io/"
+      summary: "Personal Page"
+      keywords: !!seq [ js , html, css ]
+    - 
+      name: "Silvia Web Site"
+      publisher: "Javier Cabrera"
+      category: "Personal Page"
+      releaseDate: "2020"
+      website: "http://silviamc.github.io/"
+      summary: "Personal Page"
+      keywords: !!seq [ js , html, css ]
+    
+
   skills: 
     - 
       title: "JS Web Development"

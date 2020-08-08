@@ -74,19 +74,16 @@
     {
       "name": "Spanish",
       "level": "fluent",
-      "language": "Spanish",
       "fluency": "Native speaker"
     },
     {
       "name": "English",
       "level": "fluent",
-      "language": "English",
       "fluency": "Conversation"
     },
     {
       "name": "French",
       "level": "basic",
-      "language": "French",
       "fluency": "Basic"
     }
   ],
@@ -109,11 +106,39 @@
   "publications": [],
   "projects": [
     {
+      "name": "time-life",
+      "publisher": "Javier Cabrera",
+      "category": "calculation",
+      "releaseDate": "2020",
+      "website": "https://jcc2303.github.io/time-life/",
+      "summary": "play videos, make resume, save and share it",
+      "keywords": [
+        "js",
+        "svelte",
+        "tailwindcss"
+      ]
+    },
+    {
+      "name": "sign-language",
+      "publisher": "Javier Cabrera",
+      "category": "AI",
+      "releaseDate": "2020",
+      "website": "https://jcc2303.github.io/sign-language/",
+      "summary": "camera, tensorflow, web components",
+      "keywords": [
+        "js",
+        "svelte",
+        "tailwindcss",
+        "ai",
+        "tensorflow"
+      ]
+    },
+    {
       "name": "Summary Player",
       "publisher": "Javier Cabrera",
       "category": "video",
       "releaseDate": "2021",
-      "website": "https://jcc2303.github.io/summary-player/#/",
+      "website": "https://jcc2303.github.io/summary-player/",
       "summary": "play videos, make resume, save and share it",
       "keywords": [
         "js",
@@ -177,7 +202,7 @@
         "js",
         "node",
         "express",
-        "graphql",
+        "polymer",
         "mongo"
       ]
     },
@@ -190,10 +215,48 @@
       "summary": "Experiment with ClojureScript",
       "keywords": [
         "js",
-        "node",
-        "express",
-        "graphql",
-        "mongo"
+        "clojure"
+      ]
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Reinaldo Web Site",
+      "publisher": "Javier Cabrera",
+      "category": "Personal Page",
+      "releaseDate": "2020",
+      "website": "http://reyemp.github.io/",
+      "summary": "Personal Page",
+      "keywords": [
+        "js",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "name": "Exequiel Web Site",
+      "publisher": "Javier Cabrera",
+      "category": "Personal Page",
+      "releaseDate": "2020",
+      "website": "http://exequielab.github.io/",
+      "summary": "Personal Page",
+      "keywords": [
+        "js",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "name": "Silvia Web Site",
+      "publisher": "Javier Cabrera",
+      "category": "Personal Page",
+      "releaseDate": "2020",
+      "website": "http://silviamc.github.io/",
+      "summary": "Personal Page",
+      "keywords": [
+        "js",
+        "html",
+        "css"
       ]
     }
   ],
