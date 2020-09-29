@@ -109,7 +109,7 @@
       "name": "time-life",
       "publisher": "Javier Cabrera",
       "category": "calculation",
-      "releaseDate": "2020",
+      "releaseDate": 2020,
       "website": "https://jcc2303.github.io/time-life/",
       "summary": "play videos, make resume, save and share it",
       "keywords": [
@@ -122,7 +122,7 @@
       "name": "sign-language",
       "publisher": "Javier Cabrera",
       "category": "AI",
-      "releaseDate": "2020",
+      "releaseDate": 2020,
       "website": "https://jcc2303.github.io/sign-language/",
       "summary": "camera, tensorflow, web components",
       "keywords": [
@@ -137,7 +137,7 @@
       "name": "Summary Player",
       "publisher": "Javier Cabrera",
       "category": "video",
-      "releaseDate": "2021",
+      "releaseDate": 2021,
       "website": "https://jcc2303.github.io/summary-player/",
       "summary": "play videos, make resume, save and share it",
       "keywords": [
@@ -150,7 +150,7 @@
       "name": "VueGraphqlHouse",
       "publisher": "Javier Cabrera",
       "category": "Real State",
-      "releaseDate": "2018",
+      "releaseDate": 2018,
       "website": "http://t5-houses.herokuapp.com/",
       "summary": "It is an example of complete stack, using graphql, where brings maximun flexibility",
       "keywords": [
@@ -164,8 +164,8 @@
     {
       "name": "cashout",
       "publisher": "Javier Cabrera",
-      "category": "",
-      "releaseDate": "2018",
+      "category": null,
+      "releaseDate": 2018,
       "website": "http://cashout-t5.herokuapp.com/",
       "summary": "An example to show client for bets",
       "keywords": [
@@ -179,8 +179,8 @@
     {
       "name": "Blog",
       "publisher": "Javier Cabrera",
-      "category": "",
-      "releaseDate": "2018",
+      "category": null,
+      "releaseDate": 2018,
       "website": "http://blog.tecla5.com/",
       "summary": "the idea of place to express and share with the people",
       "keywords": [
@@ -194,8 +194,8 @@
     {
       "name": "Freewater",
       "publisher": "Javier Cabrera",
-      "category": "",
-      "releaseDate": "2018",
+      "category": null,
+      "releaseDate": 2018,
       "website": "http://freewater.herokuapp.com/",
       "summary": "example of polimer from google with the idea to show tap water on any city",
       "keywords": [
@@ -209,8 +209,8 @@
     {
       "name": "Comic",
       "publisher": "Javier Cabrera",
-      "category": "",
-      "releaseDate": "2018",
+      "category": null,
+      "releaseDate": 2018,
       "website": "http://comic.tecla5.com/",
       "summary": "Experiment with ClojureScript",
       "keywords": [
@@ -224,7 +224,7 @@
       "name": "Reinaldo Web Site",
       "publisher": "Javier Cabrera",
       "category": "Personal Page",
-      "releaseDate": "2020",
+      "releaseDate": 2020,
       "website": "http://reyemp.github.io/",
       "summary": "Personal Page",
       "keywords": [
@@ -237,7 +237,7 @@
       "name": "Exequiel Web Site",
       "publisher": "Javier Cabrera",
       "category": "Personal Page",
-      "releaseDate": "2020",
+      "releaseDate": 2020,
       "website": "http://exequielab.github.io/",
       "summary": "Personal Page",
       "keywords": [
@@ -250,7 +250,7 @@
       "name": "Silvia Web Site",
       "publisher": "Javier Cabrera",
       "category": "Personal Page",
-      "releaseDate": "2020",
+      "releaseDate": 2020,
       "website": "http://silviamc.github.io/",
       "summary": "Personal Page",
       "keywords": [
@@ -328,15 +328,17 @@
   ],
   "works": [
     {
-      "company": "tecla5",
-      "position": "CEO/JsDeveloper",
+      "company": "Tecla5",
+      "position": "CEO and Tech Lead",
       "website": "https://tecla5.com",
       "startDate": "2013-12-01",
       "summary": "Tecla5 is a software development company with headquarters in Barcelona, Spain. We started as a small team in Barcelona and have now grown to a team spanning the globe. Our engineers are actively researching and working with the latest technologies helping us always provide the best solution available.",
       "highlights": [
-        "Power your apps with data APIs and business logic using micro services for better scalability, flexibility and management",
-        "We develop both multi- and single page web apps (MPAs & SPAs).",
-        "We deliver complete front-to-back solutions using our powerful custom tech stack."
+        "Experience with e2e and unit testing across multiple platforms",
+        "Experience with multiple types of databases and cloud infrastructures",
+        "Experience powering apps with data APIs and business logic using micro services for better scalability, flexibility and management",
+        "Experience with both multi- and single page web apps (MPAs & SPAs).",
+        "Experience delivering complete front-to-back solutions using our powerful custom tech stack."
       ],
       "stack": [
         "mongo",
@@ -352,13 +354,13 @@
     },
     {
       "company": "SCYTL",
-      "position": "Frontend/Javascript",
+      "position": "Frontend Lead",
       "website": "http://www.scytl.net/",
       "startDate": "2019-11-01",
       "endDate": "2020-05-01",
       "summary": "Leading the transformation of the elections industry by making voting more accessible, efficient, transparent, auditable and secure",
       "highlights": [
-        "Upgrading all system to es7 and modernization with care"
+        "Upgrading all systems to ES7 and modern front-end infrastructure"
       ],
       "stack": [
         "git",
@@ -372,14 +374,13 @@
     },
     {
       "company": "Audi",
-      "position": "Architect/Java",
+      "position": "Java Architect",
       "website": "http://www.audi.com/",
       "startDate": "2018-12-27",
       "endDate": "2019-09-01",
       "summary": "Audi Company over IT Deparment based in Barcelona, Spain.",
       "highlights": [
-        "Architect for backend and help to define the flow to deployment",
-        "Design of image and containerization with docker"
+        "Architected the backend and helped define the deployment infrastructure, pipelines and workflows. Docker containerization"
       ],
       "stack": [
         "svn",
@@ -393,14 +394,14 @@
     },
     {
       "company": "Nestle",
-      "position": "QA/Js",
+      "position": "QA Testing with JavaScript",
       "website": "http://www.nestle.com/",
       "startDate": "2018-03-16",
       "endDate": "2018-12-26",
       "summary": "Nestlé is the world’s largest food and beverage company. Neste have IT Deparment based in Barcelona, Spain.",
       "highlights": [
-        "Improvement the framework used inside QA process",
-        "Design test plan, test executions, and test for all deliveries in Nestle."
+        "Design of the infrastructure, applications and release pipeline to deliver in production. Designed the react client app",
+        "Designed web scraping script and backend GraphQL API  to be consumed by the front-end."
       ],
       "stack": [
         "gigya",
@@ -413,8 +414,8 @@
       ]
     },
     {
-      "company": "homes-ag",
-      "position": "CTO/JsC#Developer",
+      "company": "Homes-ag",
+      "position": "CTO Java C# Developer",
       "website": "http://www.homes.ag/",
       "startDate": "2017-11-01",
       "endDate": "2017-07-01",
@@ -435,15 +436,14 @@
     },
     {
       "company": "SMI - Ltd",
-      "position": "JsDeveloper",
+      "position": "JavaScript Developer",
       "website": "https://offsidegaming.com",
       "startDate": "2015-04-01",
       "endDate": "2015-11-01",
       "summary": "SMI is a betting platform provider with their main offices in London",
       "highlights": [
-        "Spear-heading their shift to a multi layered application architecture",
-        "Rapid rendering with async server rendering",
-        "Component with polymer project of Google that GraphQL client"
+        "Spear-heading shift to a multi layered application architecture. Rapid rendering with async server rendering.",
+        "Developed components with Google Polymer project. Development GraphQL API with client/server"
       ],
       "stack": [
         "gulp",
@@ -458,8 +458,8 @@
       ]
     },
     {
-      "company": "jeagle",
-      "position": "CEO/JavaDeveloper",
+      "company": "Jeagle",
+      "position": "CTO Java Developer",
       "website": "https://jeagle.es",
       "startDate": "2013-12-01",
       "endDate": "2014-12-01",
@@ -477,15 +477,15 @@
     },
     {
       "company": "HP",
-      "position": "QA/Automation Tester/JavaDeveloper",
+      "position": "QA Automation Tester and Java Developer",
       "website": "https://www.hp.com",
       "startDate": "2012-04-01",
       "endDate": "2013-12-01",
       "summary": "HP with his own cms in drupal to sell all image repository",
       "highlights": [
-        "Resposability of Continuos Integration (CI) in the SMS project",
-        "design and integration of every component of test with maven using BDD methodology",
-        "Instalation and configuration of different system like Jenkins, maven, sonar, SVN, etc"
+        "Designing and implement the Continuous Integration and Delivery (CI/CD) in the SMS project",
+        "Design and integration of every component for testing with maven using BDD methodology.",
+        "Installation and configuration of different system like Jenkins, maven, sonar, SVN"
       ],
       "stack": [
         "CI",
@@ -499,7 +499,7 @@
     },
     {
       "company": "Aigues de Barcelona",
-      "position": "Architect/JavaDeveloper",
+      "position": "Architect and Java Developer",
       "website": "http://www.aiguesdebarcelona.cat",
       "startDate": "2011-06-01",
       "endDate": "2012-03-01",
@@ -518,7 +518,7 @@
     },
     {
       "company": "SCYTL",
-      "position": "Architect/JavaDevelper",
+      "position": "Architect and Java Develper",
       "website": "https://www.scytl.com/",
       "startDate": "2010-06-01",
       "endDate": "2011-06-01",
@@ -544,9 +544,10 @@
       "website": "https://www.tda-sgft.com/",
       "startDate": "2009-04-01",
       "endDate": "2010-04-01",
-      "summary": "Titulizacion de Activos, Creation of investment funds ",
+      "summary": "Titulizacion de Activos, Creation of investment funds",
       "highlights": [
-        "Maintenance and new functionalities of the core software in a company of Asset Securitization, having acquired knowledge of finance and high transaction assets"
+        "Maintenance and new functionalities of the core software in a company of Asset Securitization",
+        "Development of finance and high transactional functionalities"
       ],
       "stack": [
         "svn",
@@ -564,8 +565,8 @@
       "endDate": "2009-02-01",
       "summary": "Create new ways to comunicate differents applications insede the company",
       "highlights": [
-        "Optimization and maintenance of electronic signature of documents by the  Registrar's College in Spain. Migration of business logic",
-        "Creation of new project management and telemetries technologies to the remote signature"
+        "Optimization and maintenance of electronic signature of documents by the Registrar's College in Spain.",
+        "Migration of business logic and creation application of management ased on telemetries technologies and remote signature"
       ],
       "stack": [
         "svn",
@@ -584,7 +585,7 @@
       "endDate": "2007-12-01",
       "summary": "Create new ways to comunicate differents applications insede the company",
       "highlights": [
-        "Management Webservices WebServices, EJB, JMS, based on J2EE",
+        "Management Webservices Web Services, EJB, JMS, based on J2EE",
         "Analysis, design and implementation Web Projects",
         "Sockets and connections to other legacy systems, database connections and servers"
       ],
