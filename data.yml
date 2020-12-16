@@ -273,7 +273,7 @@
         - Experience powering apps with data APIs and business logic using micro services for better scalability, flexibility and management
         - Experience with both multi- and single page web apps (MPAs & SPAs).
         - Experience delivering complete front-to-back solutions using our powerful custom tech stack.
-      stack:  !!seq [ mongo, docker, jenkins, graphql, vue, node, express, heroku, circleci, bitbucket ]
+      stack:  !!seq [ mongo, docker, jenkins, graphql, svelte, vue, node, express, heroku, circleci, bitbucket ]
     -
       company: SCYTL
       position: Frontend Lead
@@ -284,7 +284,9 @@
       highlights: 
         - Experience with the review of legacy systems
         - Upgrading all systems to ES7 and modern front-end infrastructure
-      stack:  !!seq [ git, javascript, angularjs, java, ansible, QA, design, jenkins ]             
+        - Experience Agile Process and Kanban boards
+        - Experience with high security and protocols
+      stack:  !!seq [ git, javascript, angularjs, java, ansible, QA, design, jenkins, bitbucket ]             
     -
       company: Audi
       position: Architect
@@ -299,7 +301,7 @@
         - Experience on design information systems, design of application data models and workflow  
         - Design of application APIs using suitable frameworks
         - Design and implementation solution with authentication and authorization
-      stack:  !!seq [ svn, git, java, spring, JPA, REST, Swagger, docker, QA, design, Leader ]      
+      stack:  !!seq [ svn, git, java, spring, springboot, JPA, REST, Swagger, docker, QA, design, Leader ]
     - 
       company: Nestle
       position: QA Testing
@@ -312,6 +314,7 @@
         - Design of web framework solution integrated with Jenkins API to pipeline the job for developers. 
         - Management of jobs and the deployment applications on Jenkins. 
         - Delivery of architectural components and monitorizing deployments.
+        - Reporting & Prototyping with Js
       stack:  !!seq [ gigya, Js, cucumber, selenium, node, puppeteer, git, jenkins, Jira, Confluence ]
     - 
       company: Homes-ag
@@ -339,6 +342,7 @@
         - Direction of meeting with the team cheking progress.
         - Spear-heading shift to a multi layered application architecture. Rapid rendering with async server rendering.
         - Developed components with Google Polymer project. Development GraphQL API with client/server        
+        - Experience Agile Process and Scrum
       stack:  !!seq [ gulp, metalsmith, node, koa, marko, lazo, html, css, js ]
     - 
       company: Jeagle
@@ -395,7 +399,7 @@
         - Maintenance and new functionalities of the core software in a company of Asset Securitization 
         - Development of finance and high transactional functionalities
         - Deep undertanding of reltional databases and PL/SQL
-      stack:  !!seq [ svn, java, EJB, JTA, JPA, DBMS, Oracle ]
+      stack:  !!seq [ svn, java, J2EE, EJB, JTA, JPA, DBMS, Oracle, SOAP ]
     - 
       company: Registradores de España
       position: Analyst and Developer
@@ -406,7 +410,7 @@
       highlights: 
         - Optimization and maintenance of electronic signature of documents by the Registrar's College in Spain.
         - Migration of business logic and creation application of management ased on telemetries technologies and remote signature
-      stack:  !!seq [ svn, java, Richfaces, Spring, XML, javascript, DBMS ]
+      stack:  !!seq [ svn, java, Richfaces, Spring, XML, javascript, DBMS, SOAP ]
     - 
       company: Digitel TIM
       position: Business Systems Specialist
@@ -418,7 +422,7 @@
         - Management Webservices Web Services, EJB, JMS, based on J2EE
         - Analysis, design and implementation Web Projects
         - Sockets and connections to other legacy systems, database connections and servers
-      stack:  !!seq [ svn, java, XML, UML, EJB, JMS, DBMS ]
+      stack:  !!seq [ svn, java, J2EE, XML, UML, EJB, JMS, DBMS ]
     - 
       company: Movilnet
       position: Lead Developer
@@ -431,7 +435,7 @@
         - Delegate task to the team
         - Responsable for deploy on production
         - Deep undertanding of reltional databases and PL/SQL        
-      stack:  !!seq [ svn, java, Spring, DBMS, Oracle ]
+      stack:  !!seq [ svn, java, Spring, Spring MVC, Struts, Tomcat, DBMS, Oracle, SOAP ]
     - 
       company: Movistar
       position: Developer
@@ -439,8 +443,8 @@
       startDate: "2005-12-01"
       endDate: "2006-10-01"
       summary: Movistar with the postpaid program
-      highlights: 
+      highlights:
         - maintenance and creation functionalities over post-paid mobile architecture system developed in J2EE
         - Deep undertanding of UML, and implementation of requirements
-      stack:  !!seq [ svn, java, WebLogic, EJB, JMS, J2EE, JTA, DBMS, Oracle, Maven ]
+      stack:  !!seq [ svn, java, J2EE, WebLogic, EJB, JMS, J2EE, JTA, DBMS, Oracle, Maven, SOAP ]
 

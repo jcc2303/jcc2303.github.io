@@ -348,6 +348,7 @@
         "docker",
         "jenkins",
         "graphql",
+        "svelte",
         "vue",
         "node",
         "express",
@@ -365,7 +366,9 @@
       "summary": "Leading the transformation of the elections industry by making voting more accessible, efficient, transparent, auditable and secure",
       "highlights": [
         "Experience with the review of legacy systems",
-        "Upgrading all systems to ES7 and modern front-end infrastructure"
+        "Upgrading all systems to ES7 and modern front-end infrastructure",
+        "Experience Agile Process and Kanban boards",
+        "Experience with high security and protocols"
       ],
       "stack": [
         "git",
@@ -375,7 +378,8 @@
         "ansible",
         "QA",
         "design",
-        "jenkins"
+        "jenkins",
+        "bitbucket"
       ]
     },
     {
@@ -398,6 +402,7 @@
         "git",
         "java",
         "spring",
+        "springboot",
         "JPA",
         "REST",
         "Swagger",
@@ -418,7 +423,8 @@
         "Design of the infrastructure, applications and release pipeline to deliver in production. Designed the react client app",
         "Design of web framework solution integrated with Jenkins API to pipeline the job for developers.",
         "Management of jobs and the deployment applications on Jenkins.",
-        "Delivery of architectural components and monitorizing deployments."
+        "Delivery of architectural components and monitorizing deployments.",
+        "Reporting & Prototyping with Js"
       ],
       "stack": [
         "gigya",
@@ -467,7 +473,8 @@
         "Coordination with the international team for the implementation of architecture",
         "Direction of meeting with the team cheking progress.",
         "Spear-heading shift to a multi layered application architecture. Rapid rendering with async server rendering.",
-        "Developed components with Google Polymer project. Development GraphQL API with client/server"
+        "Developed components with Google Polymer project. Development GraphQL API with client/server",
+        "Experience Agile Process and Scrum"
       ],
       "stack": [
         "gulp",
@@ -579,11 +586,13 @@
       "stack": [
         "svn",
         "java",
+        "J2EE",
         "EJB",
         "JTA",
         "JPA",
         "DBMS",
-        "Oracle"
+        "Oracle",
+        "SOAP"
       ]
     },
     {
@@ -604,7 +613,8 @@
         "Spring",
         "XML",
         "javascript",
-        "DBMS"
+        "DBMS",
+        "SOAP"
       ]
     },
     {
@@ -622,6 +632,7 @@
       "stack": [
         "svn",
         "java",
+        "J2EE",
         "XML",
         "UML",
         "EJB",
@@ -646,8 +657,12 @@
         "svn",
         "java",
         "Spring",
+        "Spring MVC",
+        "Struts",
+        "Tomcat",
         "DBMS",
-        "Oracle"
+        "Oracle",
+        "SOAP"
       ]
     },
     {
@@ -664,6 +679,7 @@
       "stack": [
         "svn",
         "java",
+        "J2EE",
         "WebLogic",
         "EJB",
         "JMS",
@@ -671,7 +687,8 @@
         "JTA",
         "DBMS",
         "Oracle",
-        "Maven"
+        "Maven",
+        "SOAP"
       ]
     }
   ]
