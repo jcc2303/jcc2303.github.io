@@ -262,25 +262,25 @@
   ],
   "skills": [
     {
-      "title": "JS Web Development",
-      "description": "Web development with js and java",
+      "title": "Web Development",
+      "description": "Web development for Frontend and Backend with js and java",
       "keywords": [
         "HTML",
         "CSS",
-        "Javascript",
-        "Java"
+        "Js",
+        "Java",
+        "..."
       ]
     },
     {
       "title": "Web Testing",
-      "description": "learned different frameworks for e2e testing",
+      "description": "Learned different frameworks for e2e testing",
       "keywords": [
         "Test",
         "E2E",
-        "CI",
-        "CD",
+        "CI/CD",
         "Test Runner",
-        "Automation"
+        "..."
       ]
     },
     {
@@ -290,18 +290,19 @@
         "DMSDB",
         "ORM",
         "PL/SQL",
-        "NoSQL"
+        "NoSQL",
+        "..."
       ]
     },
     {
       "title": "Infrastructure",
       "description": "Learned about SO and ways to construct infraestructures",
       "keywords": [
-        "Linux",
-        "Virtual Machines",
+        "Linux Server",
+        "VMs",
         "Containers",
         "Shell",
-        "Server"
+        "..."
       ]
     }
   ],
