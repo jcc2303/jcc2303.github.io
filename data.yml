@@ -282,7 +282,7 @@
         - Experience powering apps with data APIs and business logic using micro services for better scalability, flexibility and management
         - Experience with both multi- and single page web apps (MPAs & SPAs).
         - Experience delivering complete front-to-back solutions using our powerful custom tech stack.
-      stack:  !!seq [ mongo, docker, jenkins, graphql, svelte, vue, node, express, heroku, circleci, bitbucket ]
+      stack:  !!seq [ mongo, docker, jenkins, graphql, svelte, react, vue, node, express, heroku, circleci, bitbucket ]
     -
       company: SCYTL
       position: Frontend Lead
