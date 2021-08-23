@@ -170,6 +170,7 @@
       "summary": "An example to show client for bets",
       "keywords": [
         "js",
+        "react",
         "node",
         "express",
         "graphql",
@@ -197,7 +198,7 @@
       "category": "Maps",
       "releaseDate": 2018,
       "website": "http://freewater.herokuapp.com/",
-      "summary": "example of polimer from google with the idea to show tap water on any city",
+      "summary": "example of polymer from google with the idea to show tap water on any city",
       "keywords": [
         "js",
         "node",
@@ -230,7 +231,9 @@
       "keywords": [
         "js",
         "html",
-        "css"
+        "css",
+        "react",
+        "svelte"
       ]
     },
     {
@@ -243,7 +246,9 @@
       "keywords": [
         "js",
         "html",
-        "css"
+        "css",
+        "react",
+        "svelte"
       ]
     },
     {
@@ -256,7 +261,9 @@
       "keywords": [
         "js",
         "html",
-        "css"
+        "css",
+        "react",
+        "svelte"
       ]
     }
   ],
@@ -316,6 +323,24 @@
       "summary": "share our vision, support Codeworks’ mission, and collaborate with our educational activities on multiple levels.",
       "highlights": [
         "developer assistant for events inside workplace"
+      ],
+      "stack": [
+        "javascript",
+        "react",
+        "mongodb",
+        "express",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "organization": "Tecla5",
+      "position": "Teacher",
+      "website": "https://tecla5.com/",
+      "startDate": "2009-01-01",
+      "summary": "Teaching as private mentor to differents students to learn new technologies.",
+      "highlights": [
+        "developer assistant for students"
       ],
       "stack": [
         "javascript",
@@ -473,7 +498,7 @@
         "Coordination with the international team for the implementation of architecture",
         "Direction of meeting with the team cheking progress.",
         "Spear-heading shift to a multi layered application architecture. Rapid rendering with async server rendering.",
-        "Developed components with Google Polymer project. Development GraphQL API with client/server",
+        "Developed components with react project. Development GraphQL API with client/server",
         "Experience Agile Process and Scrum"
       ],
       "stack": [
@@ -485,7 +510,8 @@
         "lazo",
         "html",
         "css",
-        "js"
+        "js",
+        "react"
       ]
     },
     {
