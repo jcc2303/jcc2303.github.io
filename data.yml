@@ -156,7 +156,7 @@
       releaseDate: 2018
       website: http://cashout-t5.herokuapp.com/
       summary: An example to show client for bets
-      keywords: !!seq [ js , node , express , graphql , mongo ]
+      keywords: !!seq [ js , react, node , express , graphql , mongo ]
     - 
       name: Blog
       publisher: Javier Cabrera
@@ -171,7 +171,7 @@
       category: Maps
       releaseDate: 2018
       website: http://freewater.herokuapp.com/
-      summary: example of polimer from google with the idea to show tap water on any city
+      summary: example of polymer from google with the idea to show tap water on any city
       keywords: !!seq [ js , node , express , polymer , mongo ]  
     - 
       name: Comic
@@ -190,7 +190,7 @@
       releaseDate: 2020
       website: http://reyemp.github.io/
       summary: Personal Page
-      keywords: !!seq [ js , html, css ]
+      keywords: !!seq [ js , html, css, react, svelte ]
     - 
       name: Exequiel Web Site
       publisher: Javier Cabrera
@@ -198,7 +198,7 @@
       releaseDate: 2020
       website: http://exequielab.github.io/
       summary: Personal Page
-      keywords: !!seq [ js , html, css ]
+      keywords: !!seq [ js , html, css, react, svelte ]
     - 
       name: Silvia Web Site
       publisher: Javier Cabrera
@@ -206,7 +206,7 @@
       releaseDate: 2020
       website: http://silviamc.github.io/
       summary: Personal Page
-      keywords: !!seq [ js , html, css ]
+      keywords: !!seq [ js , html, css, react, svelte ]
     
 
   skills: 
@@ -256,6 +256,15 @@
       summary: share our vision, support Codeworks’ mission, and collaborate with our educational activities on multiple levels.
       highlights: 
         - developer assistant for events inside workplace
+      stack:  !!seq [ javascript, react, mongodb, express, html, css ]
+    - 
+      organization: Tecla5
+      position: Teacher
+      website: https://tecla5.com/
+      startDate: "2009-01-01"
+      summary: Teaching as private mentor to differents students to learn new technologies.
+      highlights: 
+        - developer assistant for students
       stack:  !!seq [ javascript, react, mongodb, express, html, css ]
 
   works: 
@@ -341,9 +350,9 @@
         - Coordination with the international team for the implementation of architecture
         - Direction of meeting with the team cheking progress.
         - Spear-heading shift to a multi layered application architecture. Rapid rendering with async server rendering.
-        - Developed components with Google Polymer project. Development GraphQL API with client/server        
+        - Developed components with react project. Development GraphQL API with client/server        
         - Experience Agile Process and Scrum
-      stack:  !!seq [ gulp, metalsmith, node, koa, marko, lazo, html, css, js ]
+      stack:  !!seq [ gulp, metalsmith, node, koa, marko, lazo, html, css, js, react ]
     - 
       company: Jeagle
       position: CTO and Developer
