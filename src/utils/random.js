@@ -1,5 +1,5 @@
 
-export const Random = {
+const Random = {
     shuffleArray: function (array) {
         function applyFunc(currentIndex, oldArray) {
             if (!currentIndex) {
@@ -16,3 +16,5 @@ export const Random = {
         return applyFunc(array.length - 1, array);
     }
 };
+
+export {Random}

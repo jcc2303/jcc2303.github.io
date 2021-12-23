@@ -1,0 +1,6 @@
+svelte.config.js
+tailwind.config.js
+
+dist/
+
+src/routes/bookmarks/Wikidata.svelte

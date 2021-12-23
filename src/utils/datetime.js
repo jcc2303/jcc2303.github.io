@@ -1,5 +1,12 @@
 
-import moment from 'moment';
+// eslint-disable-next-line no-unused-vars
+function convertNative(dt) {
+    // Native
+    const datePattern = /^(\d{2})-(\d{2})-(\d{4})$/;
+    const [, year, month, day] = datePattern.exec(dt);
+    return new Date(`${month}, ${day} ${year}`);    
+}
+
 
 export const Datetime = {
     getDisplayFromDate: function (datetime) {
@@ -7,15 +14,8 @@ export const Datetime = {
             return datetime;
         }
 
-        const applyFunc = function (dt) {
-            const d = moment(dt, 'YYYY-MM-DD');
-            const date = d.date();
-            if (date > 20) {
-                return d.add(1, 'months').format('MMM YYYY');
-            }
-            return d.format('MMM YYYY');
-        };
-        const value = applyFunc(datetime);
-        return value === 'Invalid date' ? datetime : value;
+        // const nativeDate = convertNative(datetime)
+
+        return datetime // TODO: nativeDate; =>  to MMM YY
     }
 };
