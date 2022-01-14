@@ -1,23 +1,23 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+  import { onMount } from 'svelte'
 
-  import Home from './components/Home.svelte';
+  import Home from './components/Home.svelte'
 
+  let data = null
 
-	let data = null
-	
-	const getData = async () => {
-		// window.location.href
-		const res = await fetch(`${window.location.origin}/data.json`, { method: 'GET' })
-		
-		const json = await res.json()
-		data = json		
-	}
+  const getData = async () => {
+    // window.location.href
+    const res = await fetch(`${window.location.origin}/data.json`, {
+      method: 'GET',
+    })
 
-	onMount(async () => {
-		await getData()
-	});
+    const json = await res.json()
+    data = json
+  }
 
+  onMount(async () => {
+    await getData()
+  })
 </script>
 
 <main>
