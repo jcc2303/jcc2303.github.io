@@ -284,6 +284,19 @@
         - Experience delivering complete front-to-back solutions using our powerful custom tech stack.
       stack:  !!seq [ mongo, docker, jenkins, graphql, svelte, react, vue, node, express, heroku, circleci, bitbucket ]
     -
+      company: Daimler
+      position: QA automation
+      website: https://www.daimler.com
+      startDate: "2021-10-01"
+      endDate: "2022-01-01"
+      summary: Daimler AG is a German multinational automotive corporation headquartered in Stuttgart, Baden-Württemberg, Germany. It is one of the world's leading car and truck manufacturers
+      highlights: 
+        - Experience with design and implement QA for DDX marketplace
+        - Experience with the lastest technologies in QA automation
+        - Experience Agile Process and SAFe
+        - Experience with unit testing integration and end to end testing
+      stack:  !!seq [ git, javascript, typescript, react, playwright, QA, design ]             
+    -
       company: SCYTL
       position: Frontend Lead
       website: http://www.scytl.net/

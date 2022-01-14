@@ -384,6 +384,29 @@
       ]
     },
     {
+      "company": "Daimler",
+      "position": "QA automation",
+      "website": "https://www.daimler.com",
+      "startDate": "2021-10-01",
+      "endDate": "2022-01-01",
+      "summary": "Daimler AG is a German multinational automotive corporation headquartered in Stuttgart, Baden-Württemberg, Germany. It is one of the world's leading car and truck manufacturers",
+      "highlights": [
+        "Experience with design and implement QA for DDX marketplace",
+        "Experience with the lastest technologies in QA automation",
+        "Experience Agile Process and SAFe",
+        "Experience with unit testing integration and end to end testing"
+      ],
+      "stack": [
+        "git",
+        "javascript",
+        "typescript",
+        "react",
+        "playwright",
+        "QA",
+        "design"
+      ]
+    },
+    {
       "company": "SCYTL",
       "position": "Frontend Lead",
       "website": "http://www.scytl.net/",
