@@ -28,7 +28,7 @@
       >
         {#if opened}
           <p>EXIT</p>
-           :
+          :
         {:else}
           <p>OPEN</p>
         {/if}

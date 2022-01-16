@@ -55,7 +55,7 @@
       <Navigation />
       {#if basics}<Banner bind:basics />{/if}
     </Header>
-    <div>
+    <div class="bg-gray-100">
       <About
         {...{
           basics,

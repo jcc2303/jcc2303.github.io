@@ -1,26 +1,22 @@
 <script>
-import { debug } from "svelte/internal";
-
+  import { debug } from 'svelte/internal'
 
   export let works = []
 
-
   const formatter = new Intl.DateTimeFormat('en-US', {
-      month: 'long',
-      year: 'numeric',
+    month: 'long',
+    year: 'numeric',
   }) // .format(Xmas95))
 
   function formatDateMonthYear(date) {
-    if(!date) return undefined
+    if (!date) return undefined
     try {
       let dateFormatted = formatter.format(new Date(date))
       return dateFormatted
     } catch (error) {
-      console.log(error)      
+      console.log(error)
     }
-  
   }
-
 </script>
 
 <section id="Work" class="px-8 py-12">
