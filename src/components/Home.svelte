@@ -34,39 +34,49 @@
     projects = resume.projects
     portfolio = resume.portfolio
     references = resume.references
-
-    console.log(portfolio)
   }
 
-  const generatePdfBinded = function () {
-    let myresume = resume
-    return () => generatePDF(myresume)
+  let wScrollY
+  let wHeight //2044
+
+  function scrollByTillscrollTop(ytop) { 
+    if (wScrollY < ytop) {
+      window.scrollBy(0, 5) 
+      setTimeout(() => scrollByTillscrollTop(ytop), 10)
+    } 
   }
 
-  const generateCoverPdfBinded = function () {
-    let myresume = resume
-    return () => generateCoverPDF(myresume)
+  
+
+  function autoScroll(){
+    scrollByTillscrollTop(wScrollY + wHeight)
+  }
+
+
+  const generatePdfBinded = function (resume) {
+    return () => generatePDF(resume)
+  }
+
+  const generateCoverPdfBinded = function (resume) {
+    return () => generateCoverPDF(resume)
   }
 </script>
+
+<svelte:window bind:scrollY={wScrollY} bind:innerHeight={wHeight} />
+
 
 {#if resume}
   <div id="Home">
     <Header>
       <Navigation />
-      {#if basics}<Banner bind:basics />{/if}
+        <Banner {basics} {autoScroll} ></Banner>
     </Header>
     <div class="bg-gray-100">
-      <About
-        {...{
-          basics,
-          generatePdf: generatePdfBinded(),
-          generateCoverPdf: generateCoverPdfBinded(),
-        }}
-      />
-      <Education {...{ education }} />
+      <About {basics} generatePdf={generatePdfBinded(resume)}  generateCoverPdf={generateCoverPdfBinded(resume)} />
+      <Education  {...{ education }} />
       <Skills {...{ skills, languages }} />
       <Projects {...{ projects }} />
-      <Projects bind:projects={portfolio} />
+      <Projects projects={portfolio} />
       <References {...{ references }} />
       <Work {...{ works }} />
       <Footer {...{ basics }} />

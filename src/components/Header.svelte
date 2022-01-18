@@ -1,7 +1,5 @@
 <script lang="ts">
-  import { blur } from 'svelte/transition'
   const layers = 7
-  let filters = ['#filter1', '#filter2']
 
   let y
   let wHeight = 0
