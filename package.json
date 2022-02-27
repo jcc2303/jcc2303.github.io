@@ -12,7 +12,8 @@
     "fix": "eslint --fix \"{,!(node_modules|public|docs|build|dist)/**/}*.{js,svelte}\"",
     "format": "prettier --write \"{,!(node_modules|public|docs|build|dist)/**/}*.{js,svelte}\"",
     "prepare": "husky install",
-    "deploy": "gh-pages -d dist -r https://github.com/jcc2303/jcc2303.github.io.git -b master"
+    "deploy:gh": "gh-pages -d dist -r https://github.com/jcc2303/jcc2303.github.io.git -b master",
+    "start": "node server"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "next",

@@ -1,4 +1,4 @@
-name: Node.js CI Build and Deploy
+name: Build and Deploy to Heroku
 
 on:
   push:
@@ -32,5 +32,8 @@ jobs:
       uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
       with:
         heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-        heroku_app_name: "jcc2303" #Must be unique in Heroku
-        heroku_email: "cabrera.javier@gmail.com"
+        heroku_app_name: jcc2303 #Must be unique in Heroku
+        heroku_email: cabrera.javier@gmail.com
+        branch: develop # should a var from github
+        # appdir: dist
+        # procfile: "web: npm start"

@@ -59,3 +59,38 @@ export default writable(0)
 
 
 https://github.com/<repository>/security/dependabot
+
+
+
+
+## preview
+
+build & preview
+
+```sh
+yarn build
+yarn preview
+```
+
+
+## preview in heroku local 
+
+```sh
+heroku local web
+```
+
+
+### deploy on dev
+
+create
+```sh
+heroku git:remote -a jcc2303
+```
+
+changes
+```sh
+git push heroku develop:main
+heroku ps:scale web=1
+heroku open
+# https://jcc2303.herokuapp.com/
+```

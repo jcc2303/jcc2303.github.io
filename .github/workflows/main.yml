@@ -1,4 +1,4 @@
-name: Node.js CI Build and Deploy
+name: Build and Deploy to gh-pages
 
 on:
   push:
