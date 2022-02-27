@@ -2,41 +2,59 @@ name: Build and Deploy to Heroku
 
 on:
   push:
-    branches: [ develop ]
+    branches:  
+    - develop
+  # pull_request:
+  #   branches: [ develop ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
 
+    # needs: heroku-deploy
     runs-on: ubuntu-latest
-    env:
-        HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}    
 
-    strategy:
-      matrix:
-        node-version: [16.x]
+    environment:
+      name: develop-deploy
+    # env:
+    #   HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+    #   HEROKU_EMAIL: ${{ secrets.HEROKU_EMAIL }}
+    #   HEROKU_APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
 
     steps:
+
     - name: Checkout 🛎️
       uses: actions/checkout@v2.3.4
-      
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
       with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    
-    - name: Install and Build and test 🔧
-      run: |
-        npm ci
-        npm run build --if-present
+        fetch-depth: 0
 
-    - name: deploy heroku
-      uses: CDNievas/heroku-action@v1.0 # This is the action    
-      # uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+    # - name: Use Node.js 17.x
+    #  uses: actions/setup-node@v1
+    #  with:
+    #    node-version: 17.x        
+
+    # - run: | 
+    #     npm install
+    #     npm run build --if-present
+      
+    - name: Deploy to Heroku
+      uses: akhileshns/heroku-deploy@v3.12.12
       with:
-        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-        heroku_app_name: jcc2303 #Must be unique in Heroku
-        heroku_email: cabrera.javier@gmail.com
-        branch: develop # should a var from github
-        # appdir: dist
-        # procfile: "web: npm start"
+        heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+        heroku_app_name: 'jcc2303'
+        heroku_email: 'cabrera.javier@gmail.com'
+        justlogin: true
+    
+    - run: |
+        git remote -v
+        heroku git:remote --app jcc2303
+        git remote -v
+        git push heroku develop:main
+      env:
+        HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+
+
+      # heroku container:push -a jcc2303 origin/develop:main       
+      # git push -f https://heroku:${{ secrets.HEROKU_API_KEY }}@git.heroku.com/jcc2303.git origin/develop:main

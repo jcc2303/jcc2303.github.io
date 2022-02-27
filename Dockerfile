@@ -1,5 +1,7 @@
 FROM node:lts-alpine
 
+ARG PORT=3000
+
 # make the 'app' folder the current working directory
 WORKDIR /app
 
@@ -15,5 +17,8 @@ COPY . .
 # build app for production with minification
 RUN npm run build
 
-EXPOSE 5000
-CMD [ "npm", "run", "serve" ]
+# EXPOSE 5000
+# CMD [ "npm", "run", "serve" ]
+EXPOSE $PORT/udp
+EXPOSE $PORT/tcp
+CMD [ "npm", "run", "start" ]
