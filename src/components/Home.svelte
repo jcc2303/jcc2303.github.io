@@ -39,19 +39,16 @@
   let wScrollY
   let wHeight //2044
 
-  function scrollByTillscrollTop(ytop) { 
+  function scrollByTillscrollTop(ytop) {
     if (wScrollY < ytop) {
-      window.scrollBy(0, 5) 
+      window.scrollBy(0, 5)
       setTimeout(() => scrollByTillscrollTop(ytop), 10)
-    } 
+    }
   }
 
-  
-
-  function autoScroll(){
+  function autoScroll() {
     scrollByTillscrollTop(wScrollY + wHeight)
   }
-
 
   const generatePdfBinded = function (resume) {
     return () => generatePDF(resume)
@@ -64,16 +61,19 @@
 
 <svelte:window bind:scrollY={wScrollY} bind:innerHeight={wHeight} />
 
-
 {#if resume}
   <div id="Home">
     <Header>
       <Navigation />
-        <Banner {basics} {autoScroll} ></Banner>
+      <Banner {basics} {autoScroll} />
     </Header>
     <div class="bg-gray-100">
-      <About {basics} generatePdf={generatePdfBinded(resume)}  generateCoverPdf={generateCoverPdfBinded(resume)} />
-      <Education  {...{ education }} />
+      <About
+        {basics}
+        generatePdf={generatePdfBinded(resume)}
+        generateCoverPdf={generateCoverPdfBinded(resume)}
+      />
+      <Education {...{ education }} />
       <Skills {...{ skills, languages }} />
       <Projects {...{ projects }} />
       <Projects projects={portfolio} />
