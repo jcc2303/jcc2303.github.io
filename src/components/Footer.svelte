@@ -41,5 +41,6 @@
     <a class="" title="Back to Top" href="#home">
       <i class="" />
     </a>
+    <p>version v1</p>
   </div>
 </footer>
