@@ -8,6 +8,8 @@ jobs:
   build-and-deploy:
 
     runs-on: ubuntu-latest
+    env:
+        HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}    
 
     strategy:
       matrix:
