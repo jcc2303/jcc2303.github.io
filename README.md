@@ -9,6 +9,11 @@ eslint
 
 ## develop
 
+yarn data
+yarn dev
+
+
+
 ### security
 
 check 

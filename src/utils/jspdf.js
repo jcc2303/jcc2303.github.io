@@ -142,6 +142,50 @@ function generatePDF(resume) {
   newLineY()
 
   // eslint-disable-next-line array-callback-return
+  resume.clients.map((x) => {
+    const {
+      company,
+      position,
+      startDate,
+      endDate = 'current',
+      highlights,
+      stack,
+    } = x // website summary
+
+    doc
+      .setTextColor(10, 10, 10)
+      .setFontSize(10)
+      .setFont('times')
+      .setFontType('bold')
+      .text(company, MARGIN + 10, newLineY(10))
+    doc
+      .setTextColor(175, 10, 10)
+      .setFontType('italic')
+      .text(position, MARGIN + 130, cursorY) // newLineY()
+
+    // eslint-disable-next-line array-callback-return
+    highlights.map((x) => {
+      doc.setTextColor(10, 10, 10)
+      doc.text(x, MARGIN + 20, newLineY())
+    })
+
+    newLineY()
+    doc
+      .setFontSize(9)
+      .setTextColor(100, 100, 100)
+      .setFont('times')
+      .setFontType('bold')
+      .text(
+        stack.join(' | '),
+        doc.internal.pageSize.width - MARGIN,
+        cursorY,
+        null,
+        null,
+        'right'
+      )
+    newLineY()
+  })
+
   resume.works.map((x) => {
     const {
       company,

@@ -352,7 +352,7 @@
       ]
     }
   ],
-  "works": [
+  "clients": [
     {
       "company": "Tecla5",
       "position": "CEO and Tech Lead",
@@ -384,11 +384,25 @@
       ]
     },
     {
+      "company": "Amazon",
+      "position": "Software Engineer Consultant",
+      "website": "https://amazon.com",
+      "summary": "Tecla5 is helping amazon with software delivery with power of consultancy over his engineers.",
+      "highlights": [
+        "Experience delivering complete front-to-back solutions using our powerful custom tech stack."
+      ],
+      "stack": [
+        "react",
+        "docker",
+        "aws",
+        "node",
+        "express"
+      ]
+    },
+    {
       "company": "Daimler",
       "position": "QA automation",
       "website": "https://www.daimler.com",
-      "startDate": "2021-10-01",
-      "endDate": "2022-01-01",
       "summary": "Daimler AG is a German multinational automotive corporation headquartered in Stuttgart, Baden-Württemberg, Germany. It is one of the world's leading car and truck manufacturers",
       "highlights": [
         "Experience with design and implement QA for DDX marketplace",
@@ -406,6 +420,49 @@
         "design"
       ]
     },
+    {
+      "company": "SMI - Ltd",
+      "position": "Project Manager and Lead Developer",
+      "website": "https://offsidegaming.com",
+      "summary": "SMI is a betting platform provider with their main offices in London",
+      "highlights": [
+        "Coordination with the international team for the implementation of architecture",
+        "Direction of meeting with the team cheking progress.",
+        "Spear-heading shift to a multi layered application architecture. Rapid rendering with async server rendering.",
+        "Developed components with react project. Development GraphQL API with client/server",
+        "Experience Agile Process and Scrum"
+      ],
+      "stack": [
+        "gulp",
+        "metalsmith",
+        "node",
+        "koa",
+        "marko",
+        "lazo",
+        "html",
+        "css",
+        "js",
+        "react"
+      ]
+    },
+    {
+      "company": "Jeagle",
+      "position": "CTO and Developer",
+      "website": "https://jeagle.es",
+      "summary": "Jeagle infraestructure for your company.",
+      "highlights": [
+        "Power the main app with interface and keep project on evolution"
+      ],
+      "stack": [
+        "docker",
+        "swarm",
+        "services",
+        "jenkins",
+        "jira"
+      ]
+    }
+  ],
+  "works": [
     {
       "company": "SCYTL",
       "position": "Frontend Lead",
@@ -509,51 +566,6 @@
         "node",
         "express",
         "git"
-      ]
-    },
-    {
-      "company": "SMI - Ltd",
-      "position": "Project Manager and Lead Developer",
-      "website": "https://offsidegaming.com",
-      "startDate": "2015-04-01",
-      "endDate": "2015-11-01",
-      "summary": "SMI is a betting platform provider with their main offices in London",
-      "highlights": [
-        "Coordination with the international team for the implementation of architecture",
-        "Direction of meeting with the team cheking progress.",
-        "Spear-heading shift to a multi layered application architecture. Rapid rendering with async server rendering.",
-        "Developed components with react project. Development GraphQL API with client/server",
-        "Experience Agile Process and Scrum"
-      ],
-      "stack": [
-        "gulp",
-        "metalsmith",
-        "node",
-        "koa",
-        "marko",
-        "lazo",
-        "html",
-        "css",
-        "js",
-        "react"
-      ]
-    },
-    {
-      "company": "Jeagle",
-      "position": "CTO and Developer",
-      "website": "https://jeagle.es",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Jeagle infraestructure for your company.",
-      "highlights": [
-        "Power the main app with interface and keep project on evolution"
-      ],
-      "stack": [
-        "docker",
-        "swarm",
-        "services",
-        "jenkins",
-        "jira"
       ]
     },
     {
