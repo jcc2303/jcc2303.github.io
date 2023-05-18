@@ -37,10 +37,10 @@
         <div class="font-semibold flex justify-between">
           <p>{work.position}</p>
           {#if work.startDate}
-          <p class="text-gray-500 text-sm uppercase">
-            <em class="">{formatDateMonthYear(work.startDate)}</em> -
-            <em class="">{formatDateMonthYear(work.endDate) || 'current'}</em>
-          </p>
+            <p class="text-gray-500 text-sm uppercase">
+              <em class="">{formatDateMonthYear(work.startDate)}</em> -
+              <em class="">{formatDateMonthYear(work.endDate) || 'current'}</em>
+            </p>
           {/if}
         </div>
         <div class="p-3">

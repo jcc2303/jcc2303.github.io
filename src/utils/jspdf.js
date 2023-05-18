@@ -137,7 +137,7 @@ function generatePDF(resume) {
 
   // EXPERIENCE
   newLineY(10)
-  doc.setFontType('italic').text('Experience', MARGIN, newLineY())
+  doc.setFontType('italic').text('Clients', MARGIN, newLineY())
   doc.line(20, cursorY + 2, doc.internal.pageSize.width - MARGIN, cursorY + 2) // horizontal line
   newLineY()
 
@@ -162,6 +162,16 @@ function generatePDF(resume) {
       .setTextColor(175, 10, 10)
       .setFontType('italic')
       .text(position, MARGIN + 130, cursorY) // newLineY()
+    doc
+      .setTextColor(10, 10, 10)
+      .text(
+        `${startDate} - ${endDate}`,
+        doc.internal.pageSize.width - MARGIN,
+        cursorY,
+        null,
+        null,
+        'right'
+      )
 
     // eslint-disable-next-line array-callback-return
     highlights.map((x) => {
@@ -185,6 +195,12 @@ function generatePDF(resume) {
       )
     newLineY()
   })
+
+  // Works
+  newLineY(10)
+  doc.setFontType('italic').text('Works', MARGIN, newLineY())
+  doc.line(20, cursorY + 2, doc.internal.pageSize.width - MARGIN, cursorY + 2) // horizontal line
+  newLineY()
 
   resume.works.map((x) => {
     const {

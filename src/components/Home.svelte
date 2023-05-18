@@ -12,8 +12,6 @@
   import Footer from './Footer.svelte'
   import Techs from './Techs.svelte'
 
-  import { generatePDF, generateCoverPDF } from '../utils/jspdf'
-
   export let resume
 
   let navigation,
@@ -24,9 +22,10 @@
     languages,
     projects,
     portfolio,
-    references, clients
+    references,
+    clients
 
-  let techs 
+  let techs
 
   $: if (resume) {
     basics = resume.basics
@@ -40,8 +39,7 @@
     clients = resume.clients
   }
 
-  $: if(works) generateSkills(works)
-
+  $: if (works) generateSkills(works)
 
   let wScrollY
   let wHeight //2044
@@ -53,15 +51,15 @@
     }
   }
 
-  function generateSkills(works){
+  function generateSkills(works) {
     let techsX = []
-    works.forEach(({stack}) => {
-      stack.forEach(tech => {
-        techsX.push({name: tech, months: 0, works: []})
+    works.forEach(({ stack }) => {
+      stack.forEach((tech) => {
+        techsX.push({ name: tech, months: 0, works: [] })
       })
     })
     techs = techsX
-  } 
+  }
 
   function autoScroll() {
     scrollByTillscrollTop(wScrollY + wHeight)
@@ -95,7 +93,7 @@
       <Projects {...{ projects }} />
       <Projects projects={portfolio} />
       <References {...{ references }} />
-      <!-- {#if techs} <Techs techs={techs} /> {/if} -->
+      {#if techs} <Techs {techs} /> {/if}
       <Work {...{ works: clients }} />
       <Work {...{ works }} />
       <Footer {...{ basics }} />

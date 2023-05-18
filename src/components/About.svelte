@@ -1,22 +1,25 @@
 <script>
-  export let basics = {}
+  import { resume } from '../stores'
+  import * as jspdf from '../utils/jspdf'
 
-  export let generatePdf
-
-  export let generateCoverPdf
-
+  let basics = $resume.basics
   let { picture, name, summary = [], location = {}, phone, email } = basics
+
+  let generatePdf
+  let generateCoverPdf
+
+  resume.subscribe((r) => {
+    if (r) {
+      generatePdf = () => jspdf.generatePDF($resume)
+      generateCoverPdf = () => jspdf.generateCoverPDF($resume)
+    }
+  })
 </script>
 
 <section id="About" class="bg-gray-500 text-white full-width">
   <div class="sm:flex">
     <div class="px-8 py-12">
-      <img
-        name="meimage"
-        class="w-48 rounded-lg shadow-xl"
-        src={picture}
-        alt={name}
-      />
+      <img class="w-48 rounded-lg shadow-xl" src={picture} alt={name} />
       <h1 class="mt-6 text-lg font-bold text-gray-900 leading-tight">
         Let's enjoy together
       </h1>
@@ -36,8 +39,8 @@
           <p class="">
             <!-- <span>{location.address}</span>
                         <br/> -->
-            <span class="text-yellow-300">{location.city}</span>
-            <span class="mx-3 text-yellow-300">{location.countryCode}</span>
+            <!-- <span class="text-yellow-300">{location.city}</span>
+            <span class="mx-3 text-yellow-300">{location.countryCode}</span> -->
             <br />
             <a class="text-yellow-800" href={`skype:${phone}`}>
               <span>{phone}</span>

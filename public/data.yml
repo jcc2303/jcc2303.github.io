@@ -1,64 +1,63 @@
 ---
-  basics: 
+  basics:
     name: Javier Cabrera
     label: Fullstack JS and Java Developer
     picture: https://avatars0.githubusercontent.com/u/3462917?s=460&v=4
-    email: cabrerajavier@gmail.com
+    email: jcabreraworks@gmail.com
     phone: (+34) 634550886
     website: https://jcc2303.github.io
-    summary: 
-      - Javier from Venezuela has a degree from the Universidad Central de Venezuela. Before starting as freelancer, he worked for Movistar as a full time software developer. While his work focuses on software programming, mostly finding new techs and applying it, his non-work interests range widely, everything from arts to psychology. He could tell you about it, next time!
-    cover: "Hi! My name is Javier I am living in the cosmopolitan city of Barcelona
-            
-    
+    summary:
+      - Javier from Venezuela has a degree from the Universidad Central de Venezuela. Before starting as a freelancer, he worked for Movistar as a full-time software developer. While his work focuses on software programming, mostly finding new techs and applying them, his non-work interests range widely, from arts to psychology. He would love to share more about them with you next time!
+
+    cover: "Hi! My name is Javier. I am living in the cosmopolitan city of Barcelona.
+
+
       Dear prospective employer,
 
- 
-      Over the past few years I have been learning about myself. I have discovered who I am and started to excel in my profession, as well as helping other on their paths. These experiences have helped me develop my values including transparency, honesty, confidence and positive energy. I am also more able to recognise those values in places, people and situations I find myself in. On this journey, I have learned to be happy because everything happens for a reason and leads to true success in the end. I am grateful for life and all my friends.
 
-      
-      As a professional I have conviction; if you want to do something, “do it yourself” and learn by doing. Experience is more important than rewards, especially if this experience is shared and used to teach others. Thanks to this attitude I have gained experience in devops, frontend, backend and as a tester programmer architect and manager.  More importantly, you don’t need to know everything before you start, as you can learn on the journey as long as you have the right tools. I consider myself a fullstack developer and a natural leader and motivator.
+      Over the past few years, I have been learning about myself. I have discovered who I am and started to excel in my profession, as well as helping others on their paths. These experiences have helped me develop my values, including transparency, honesty, confidence, and positive energy. I am also more able to recognize those values in places, people, and situations I find myself in. On this journey, I have learned to be happy because everything happens for a reason and leads to true success in the end. I am grateful for life and all my friends.
 
-      
-      My skills have grown over the last few years and I have learned the importance of Production First and MVP. I have been creating projects from scratch and going from architect, running the frontend and backend, then jumping to devops, ending with testing and reaching production.
+      As a professional, I have conviction; if you want to do something, 'do it yourself' and learn by doing. Experience is more important than rewards, especially if this experience is shared and used to teach others. Thanks to this attitude, I have gained experience in DevOps, frontend, backend, and as a tester, programmer, architect, and manager. More importantly, you don't need to know everything before you start, as you can learn on the journey as long as you have the right tools. I consider myself a fullstack developer and a natural leader and motivator.
 
-      
-      In summary, if something is possible I will achieve it, while being effective and efficient in order to reach excellence.
 
-      
-      Thank you for your consideration. If you need any further information or have any questions please do not hesitate to contact me and I would be deliverer to discuss the role further at interview.
+      My skills have grown over the last few years, and I have learned the importance of Production First and MVP. I have been creating projects from scratch, going from architect, running the frontend and backend, then jumping to DevOps, ending with testing and reaching production.
 
-      
 
-      Happy coding!
+     In summary, if something is possible, I will achieve it while being effective and efficient in order to reach excellence.
 
-      Yours sincerely
 
-      Javier Cabrera 
-      
+     Thank you for your consideration. If you need any further information or have any questions, please do not hesitate to contact me, and I would be delighted to discuss the role further at the interview.
 
-      || cabrerajavier@gmail.com | (+34)634550886 | https://jcc2303.github.io ||
-      "      
-    location: 
-      address: Trinxant
-      postalCode: BCN 08041
-      city: Barcelona
-      countryCode: ES
-      region: Cataluña
-    profiles: 
-      - 
-        network: Twitter
-        username: jcc2303
-        url: https://twitter.com/jcc2303
-      - 
-        network: github
-        username: jcc2303
-        url: https://jcc2303.github.io/#/
-      - 
-        network: linkedIn
-        username: jcabrera
-        url: https://www.linkedin.com/in/javier-cabrera-79bb4119/
-  admiration: Osho, Dalai lama
+
+    Happy coding!
+
+    Yours sincerely,
+
+    Javier Cabrera
+
+
+    || jcabreraworks@gmail.com | (+34) 634550886 | https://jcc2303.github.io ||
+    "
+  location:
+    address: Trinxant
+    postalCode: BCN 08041
+    city: Barcelona
+    countryCode: ES
+    region: Cataluña
+  profiles:
+    -
+      network: Twitter
+      username: jcc2303
+      url: https://twitter.com/jcc2303
+    -
+      network: GitHub
+      username: jcc2303
+      url: https://jcc2303.github.io/#/
+    -
+      network: LinkedIn
+      username: javier-cabrera-79bb4119
+      url: https://www.linkedin.com/in/javier-cabrera-79bb4119/
+  admiration: Osho, Dalai Lama
   following: Linus Tolbard, George Hutz, Victor Farzid
   interests: 
     - 
@@ -246,6 +245,13 @@
         - Containers
         - Shell
         - "..."
+
+
+  softSkills:
+    - 
+      title: Leadership
+      description: leadership by example, where I focus in single task and convert it achivable
+
   volunteer: 
     - 
       organization: Coderworks
@@ -283,30 +289,37 @@
         - Experience powering apps with data APIs and business logic using micro services for better scalability, flexibility and management
         - Experience with both multi- and single page web apps (MPAs & SPAs).
         - Experience delivering complete front-to-back solutions using our powerful custom tech stack.
-      stack:  !!seq [ mongo, docker, jenkins, graphql, svelte, react, vue, node, express, heroku, circleci, bitbucket ]
+      stack:  !!seq [ mongo, docker, jenkins, graphql, svelte, react, vue, node, express, heroku, circleci, bitbucket, gulp, koa, marko, lazo, html, css, javascript, graphql, react, ionic, angular, rest, agile, mvvm ]
+
     - 
       company: Amazon
       position: Software Engineer Consultant
       website: https://amazon.com
-      summary: Tecla5 is helping amazon with software delivery with power of consultancy over his engineers.
+      startDate: "2022-10-01"
+      endDate: "2023-02-01"
+      summary: Tecla5 is helping amazon with consultancy on software delivery over his engineers.
       highlights: 
-        - Experience delivering complete front-to-back solutions using our powerful custom tech stack.
+        - Experience delivering complete front-to-back authentication solutions guiding engineers to the implementation.
       stack:  !!seq [ react, docker, aws, node, express ]
     -
       company: Daimler
       position: QA automation
       website: https://www.daimler.com
+      startDate: "2021-10-01"
+      endDate: "2022-01-01"
       summary: Daimler AG is a German multinational automotive corporation headquartered in Stuttgart, Baden-Württemberg, Germany. It is one of the world's leading car and truck manufacturers
       highlights: 
         - Experience with design and implement QA for DDX marketplace
         - Experience with the lastest technologies in QA automation
         - Experience Agile Process and SAFe
         - Experience with unit testing integration and end to end testing
-      stack:  !!seq [ git, javascript, typescript, react, playwright, QA, design ]             
+      stack:  !!seq [ git, javascript, typescript, react, playwright, qa, design ]             
     - 
       company: SMI - Ltd
       position: Project Manager and Lead Developer
       website: https://offsidegaming.com
+      startDate: "2015-04-01"
+      endDate: "2015-11-01"
       summary: SMI is a betting platform provider with their main offices in London
       highlights: 
         - Coordination with the international team for the implementation of architecture
@@ -319,10 +332,12 @@
       company: Jeagle
       position: CTO and Developer
       website: https://jeagle.es
+      startDate: "2013-12-01"
+      endDate: "2014-12-01"
       summary: Jeagle infraestructure for your company.
       highlights: 
         - Power the main app with interface and keep project on evolution
-      stack: [ docker, swarm, services, jenkins, jira ]
+      stack: [ docker, swarm, services, jenkins, jira, hibernate, java, agile, angular ]
 
   works: 
     -
@@ -337,7 +352,7 @@
         - Upgrading all systems to ES7 and modern front-end infrastructure
         - Experience Agile Process and Kanban boards
         - Experience with high security and protocols
-      stack:  !!seq [ git, javascript, angularjs, java, ansible, QA, design, jenkins, bitbucket ]             
+      stack:  !!seq [ git, javascript, angularjs, java, ansible, qa, design, jenkins, bitbucket, mongodb , nginx, rest, agile, jquery, mvvm ]
     -
       company: Audi
       position: Architect
@@ -352,7 +367,8 @@
         - Experience on design information systems, design of application data models and workflow  
         - Design of application APIs using suitable frameworks
         - Design and implementation solution with authentication and authorization
-      stack:  !!seq [ svn, git, java, spring, springboot, JPA, REST, Swagger, docker, QA, design, Leader ]
+      stack:  !!seq [ svn, git, java, spring, springboot, jpa, rest, swagger, docker, qa, maven, agile, spring security ]
+      # design, Leader
     - 
       company: Nestle
       position: QA Automation Testing
@@ -366,7 +382,7 @@
         - Management of jobs and the deployment applications on Jenkins. 
         - Delivery of architectural components and monitorizing deployments.
         - Reporting & Prototyping with Js
-      stack:  !!seq [ gigya, Js, cucumber, selenium, node, puppeteer, git, jenkins, Jira, Confluence ]
+      stack:  !!seq [ gigya, javascript, cucumber, selenium, node, puppeteer, git, jenkins, jira, confluence, rest, agile ]
     - 
       company: Homes-ag
       position: CTO and Lead Developer
@@ -380,7 +396,7 @@
         - Design the base for the react client for the indexer app.
         - Design scraping and api to consumed for the front-end.
         - Experience on design information systems, design of application data models and workflow  
-      stack:  !!seq [ postgres, C#, react, node, express, git ]
+      stack:  !!seq [ postgres, c#, react, node, express, git, rest, agile, vvm ]
     - 
       company: HP
       position: Automation Developer and QA Test Developer
@@ -392,7 +408,7 @@
         - Designing and implement the Continuous Integration and Delivery (CI/CD) in the SMS project
         - Design and integration of every component for testing with maven using BDD methodology. 
         - Installation and configuration of different system like Jenkins, maven, sonar, SVN
-      stack:  !!seq [ CI, CD, Jenkins, maven, shell, ssh, ant ]
+      stack:  !!seq [ java, ci, cd, jenkins, maven, shell, ssh, ant, svn, drupal, agile ]
     - 
       company: Aigues de Barcelona
       position: Architect and Developer
@@ -402,7 +418,7 @@
       summary: Aigues de Barcelona, with system ticket for report problems with the bills
       highlights: 
         - Working with Migration application technology, designing work flow process with JBPM in AquaGest system
-      stack:  !!seq [ svn, java, JBPM, JBoss, JSF, QTP ]
+      stack:  !!seq [ svn, java, jbpm, jboss, jsf, qtp, soa, uml ]
     - 
       company: SCYTL
       position: Architect and Develper
@@ -414,7 +430,7 @@
         - develop applications using cryptographic protocols that secure the election
         - Architect Design and implement and responsible on production for assigned election projects
         - lead project based on J2EE
-      stack:  !!seq [ svn, java, Spring, Struts, javascript, HTML, css, DBMS, MySQL ]
+      stack:  !!seq [ svn, java, spring, struts, javascript, html, css, dbms, mysql, soa, uml, jquery ]
     - 
       company: TDA
       position: Analyst and Developer
@@ -426,7 +442,7 @@
         - Maintenance and new functionalities of the core software in a company of Asset Securitization 
         - Development of finance and high transactional functionalities
         - Deep undertanding of reltional databases and PL/SQL
-      stack:  !!seq [ svn, java, J2EE, EJB, JTA, JPA, DBMS, Oracle, SOAP ]
+      stack:  !!seq [ svn, java, j2ee, ejb, jta, jpa, dbms, oracle, soap, hibernate, soap, maven, spring security, pl/sql ]
     - 
       company: Registradores de España
       position: Analyst and Developer
@@ -437,7 +453,7 @@
       highlights: 
         - Optimization and maintenance of electronic signature of documents by the Registrar's College in Spain.
         - Migration of business logic and creation application of management ased on telemetries technologies and remote signature
-      stack:  !!seq [ svn, java, Richfaces, Spring, XML, javascript, DBMS, SOAP ]
+      stack:  !!seq [svn, java, j2ee, ejb, jms, jpa, dbms, oracle, hibernate, xml, html, css, uml, rup, tomcat, weblogic, maven, pl/sql, richfaces, spring, javascript, soap ]
     - 
       company: Digitel TIM
       position: Business Systems Specialist
@@ -449,7 +465,7 @@
         - Management Webservices Web Services, EJB, JMS, based on J2EE
         - Analysis, design and implementation Web Projects
         - Sockets and connections to other legacy systems, database connections and servers
-      stack:  !!seq [ svn, java, J2EE, XML, UML, EJB, JMS, DBMS ]
+      stack:  !!seq [ svn, java, j2ee, ejb, jms, jpa, dbms, oracle, hibernate, xml, html, css, uml, rup, tomcat, weblogic, maven, pl/sql]
     - 
       company: Movilnet
       position: Lead Developer
@@ -462,16 +478,32 @@
         - Delegate task to the team
         - Responsable for deploy on production
         - Deep undertanding of reltional databases and PL/SQL        
-      stack:  !!seq [ svn, java, Spring, Spring MVC, Struts, Tomcat, DBMS, Oracle, SOAP ]
+      stack:  !!seq [ svn, java, spring, jpa, spring mvc, struts, tomcat, dbms, oracle, pl/sql, oracle, soap , html, css ,soa, uml, rup ]
     - 
       company: Movistar
       position: Developer
       website: https://www.movistar.com
       startDate: "2005-12-01"
       endDate: "2006-10-01"
-      summary: Movistar with the postpaid program
+      summary: Developed and maintained software applications for the company's internal systems. Collaborated with cross-functional teams to deliver high-quality solutions.      
       highlights:
         - maintenance and creation functionalities over post-paid mobile architecture system developed in J2EE
         - Deep undertanding of UML, and implementation of requirements
-      stack:  !!seq [ svn, java, J2EE, WebLogic, EJB, JMS, J2EE, JTA, DBMS, Oracle, Maven, SOAP ]
+      stack: !!seq [svn, java, weblogic, j2ee, ejb, jms, jta, dbms, oracle, pl/sql, maven, soap, soa ,web services ,xml, rup ]
 
+# stack caterogies:
+# - Version Control:
+# - Backend:
+# - Frontend Frameworks:
+# - Web Technologies:
+# - UI Frameworks:
+# - Architecture and Patterns:
+# - APIs and Protocols:
+# - Software Development Methodology:
+# - Server:
+# - Build and Dependency Management:
+# - Web Services:
+# - Database:
+# - Build Tools:
+# - Additional
+# - DevOps:

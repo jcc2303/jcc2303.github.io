@@ -3,39 +3,39 @@
     "name": "Javier Cabrera",
     "label": "Fullstack JS and Java Developer",
     "picture": "https://avatars0.githubusercontent.com/u/3462917?s=460&v=4",
-    "email": "cabrerajavier@gmail.com",
+    "email": "jcabreraworks@gmail.com",
     "phone": "(+34) 634550886",
     "website": "https://jcc2303.github.io",
     "summary": [
-      "Javier from Venezuela has a degree from the Universidad Central de Venezuela. Before starting as freelancer, he worked for Movistar as a full time software developer. While his work focuses on software programming, mostly finding new techs and applying it, his non-work interests range widely, everything from arts to psychology. He could tell you about it, next time!"
+      "Javier from Venezuela has a degree from the Universidad Central de Venezuela. Before starting as a freelancer, he worked for Movistar as a full-time software developer. While his work focuses on software programming, mostly finding new techs and applying them, his non-work interests range widely, from arts to psychology. He would love to share more about them with you next time!"
     ],
-    "cover": "Hi! My name is Javier I am living in the cosmopolitan city of Barcelona\n\nDear prospective employer,\n\nOver the past few years I have been learning about myself. I have discovered who I am and started to excel in my profession, as well as helping other on their paths. These experiences have helped me develop my values including transparency, honesty, confidence and positive energy. I am also more able to recognise those values in places, people and situations I find myself in. On this journey, I have learned to be happy because everything happens for a reason and leads to true success in the end. I am grateful for life and all my friends.\n\nAs a professional I have conviction; if you want to do something, “do it yourself” and learn by doing. Experience is more important than rewards, especially if this experience is shared and used to teach others. Thanks to this attitude I have gained experience in devops, frontend, backend and as a tester programmer architect and manager.  More importantly, you don’t need to know everything before you start, as you can learn on the journey as long as you have the right tools. I consider myself a fullstack developer and a natural leader and motivator.\n\nMy skills have grown over the last few years and I have learned the importance of Production First and MVP. I have been creating projects from scratch and going from architect, running the frontend and backend, then jumping to devops, ending with testing and reaching production.\n\nIn summary, if something is possible I will achieve it, while being effective and efficient in order to reach excellence.\n\nThank you for your consideration. If you need any further information or have any questions please do not hesitate to contact me and I would be deliverer to discuss the role further at interview.\n\n\nHappy coding!\nYours sincerely\nJavier Cabrera \n\n|| cabrerajavier@gmail.com | (+34)634550886 | https://jcc2303.github.io || ",
-    "location": {
-      "address": "Trinxant",
-      "postalCode": "BCN 08041",
-      "city": "Barcelona",
-      "countryCode": "ES",
-      "region": "Cataluña"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "jcc2303",
-        "url": "https://twitter.com/jcc2303"
-      },
-      {
-        "network": "github",
-        "username": "jcc2303",
-        "url": "https://jcc2303.github.io/#/"
-      },
-      {
-        "network": "linkedIn",
-        "username": "jcabrera",
-        "url": "https://www.linkedin.com/in/javier-cabrera-79bb4119/"
-      }
-    ]
+    "cover": "Hi! My name is Javier. I am living in the cosmopolitan city of Barcelona.\n\nDear prospective employer,\n\nOver the past few years, I have been learning about myself. I have discovered who I am and started to excel in my profession, as well as helping others on their paths. These experiences have helped me develop my values, including transparency, honesty, confidence, and positive energy. I am also more able to recognize those values in places, people, and situations I find myself in. On this journey, I have learned to be happy because everything happens for a reason and leads to true success in the end. I am grateful for life and all my friends.\nAs a professional, I have conviction; if you want to do something, 'do it yourself' and learn by doing. Experience is more important than rewards, especially if this experience is shared and used to teach others. Thanks to this attitude, I have gained experience in DevOps, frontend, backend, and as a tester, programmer, architect, and manager. More importantly, you don't need to know everything before you start, as you can learn on the journey as long as you have the right tools. I consider myself a fullstack developer and a natural leader and motivator.\n\nMy skills have grown over the last few years, and I have learned the importance of Production First and MVP. I have been creating projects from scratch, going from architect, running the frontend and backend, then jumping to DevOps, ending with testing and reaching production.\n\nIn summary, if something is possible, I will achieve it while being effective and efficient in order to reach excellence.\n\nThank you for your consideration. If you need any further information or have any questions, please do not hesitate to contact me, and I would be delighted to discuss the role further at the interview.\n\nHappy coding!\nYours sincerely,\nJavier Cabrera\n\n|| jcabreraworks@gmail.com | (+34) 634550886 | https://jcc2303.github.io || "
   },
-  "admiration": "Osho, Dalai lama",
+  "location": {
+    "address": "Trinxant",
+    "postalCode": "BCN 08041",
+    "city": "Barcelona",
+    "countryCode": "ES",
+    "region": "Cataluña"
+  },
+  "profiles": [
+    {
+      "network": "Twitter",
+      "username": "jcc2303",
+      "url": "https://twitter.com/jcc2303"
+    },
+    {
+      "network": "GitHub",
+      "username": "jcc2303",
+      "url": "https://jcc2303.github.io/#/"
+    },
+    {
+      "network": "LinkedIn",
+      "username": "javier-cabrera-79bb4119",
+      "url": "https://www.linkedin.com/in/javier-cabrera-79bb4119/"
+    }
+  ],
+  "admiration": "Osho, Dalai Lama",
   "following": "Linus Tolbard, George Hutz, Victor Farzid",
   "interests": [
     {
@@ -313,6 +313,12 @@
       ]
     }
   ],
+  "softSkills": [
+    {
+      "title": "Leadership",
+      "description": "leadership by example, where I focus in single task and convert it achivable"
+    }
+  ],
   "volunteer": [
     {
       "organization": "Coderworks",
@@ -387,9 +393,11 @@
       "company": "Amazon",
       "position": "Software Engineer Consultant",
       "website": "https://amazon.com",
-      "summary": "Tecla5 is helping amazon with software delivery with power of consultancy over his engineers.",
+      "startDate": "2022-10-01",
+      "endDate": "2023-02-01",
+      "summary": "Tecla5 is helping amazon with consultancy on software delivery over his engineers.",
       "highlights": [
-        "Experience delivering complete front-to-back solutions using our powerful custom tech stack."
+        "Experience delivering complete front-to-back authentication solutions guiding engineers to the implementation."
       ],
       "stack": [
         "react",
@@ -403,6 +411,8 @@
       "company": "Daimler",
       "position": "QA automation",
       "website": "https://www.daimler.com",
+      "startDate": "2021-10-01",
+      "endDate": "2022-01-01",
       "summary": "Daimler AG is a German multinational automotive corporation headquartered in Stuttgart, Baden-Württemberg, Germany. It is one of the world's leading car and truck manufacturers",
       "highlights": [
         "Experience with design and implement QA for DDX marketplace",
@@ -424,6 +434,8 @@
       "company": "SMI - Ltd",
       "position": "Project Manager and Lead Developer",
       "website": "https://offsidegaming.com",
+      "startDate": "2015-04-01",
+      "endDate": "2015-11-01",
       "summary": "SMI is a betting platform provider with their main offices in London",
       "highlights": [
         "Coordination with the international team for the implementation of architecture",
@@ -449,6 +461,8 @@
       "company": "Jeagle",
       "position": "CTO and Developer",
       "website": "https://jeagle.es",
+      "startDate": "2013-12-01",
+      "endDate": "2014-12-01",
       "summary": "Jeagle infraestructure for your company.",
       "highlights": [
         "Power the main app with interface and keep project on evolution"
@@ -733,7 +747,7 @@
       "website": "https://www.movistar.com",
       "startDate": "2005-12-01",
       "endDate": "2006-10-01",
-      "summary": "Movistar with the postpaid program",
+      "summary": "Developed and maintained software applications for the company's internal systems. Collaborated with cross-functional teams to deliver high-quality solutions.",
       "highlights": [
         "maintenance and creation functionalities over post-paid mobile architecture system developed in J2EE",
         "Deep undertanding of UML, and implementation of requirements"

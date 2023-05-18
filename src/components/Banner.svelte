@@ -1,11 +1,26 @@
 <script>
   export let basics = {}
 
-  export let autoScroll
+  // export let autoScroll
   let name
+
+  let wScrollY
+  let wHeight //2044
+
+  function scrollByTillscrollTop(ytop) {
+    if (wScrollY < ytop) {
+      window.scrollBy(0, 5)
+      setTimeout(() => scrollByTillscrollTop(ytop), 10)
+    }
+  }
+  function autoScroll() {
+    scrollByTillscrollTop(wScrollY + wHeight)
+  }
 
   $: name = basics.name
 </script>
+
+<svelte:window bind:scrollY={wScrollY} bind:innerHeight={wHeight} />
 
 <div class="px-8 py-48 text-center">
   <button
