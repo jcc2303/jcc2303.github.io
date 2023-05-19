@@ -3,6 +3,10 @@ import { writable } from 'svelte/store'
 
 export const resume = writable(null)
 
+export const searchQuery = writable('')
+
+export const techs = writable(null)
+
 export const loads = writable([])
 
 // Define the component service

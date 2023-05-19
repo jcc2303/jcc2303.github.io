@@ -1,52 +1,62 @@
 <script>
+  import { onMount } from 'svelte'
+  import { writable } from 'svelte/store'
+
+  // Define the two components
+  import TechTree from './TechTree.svelte'
+  import Techs from './Techs.svelte'
+
   export let skills = []
-  export let languages = []
+
+  export let node
+  export let works = []
+
+  // Store to keep track of the selected component
+  const selectedComponent = writable('definition')
+
+  const selectDefinition = () => {
+    selectedComponent.set('definition')
+  }
+
+  const selectStats = () => {
+    selectedComponent.set('stats')
+  }
+
+  // Fetch the data or perform any necessary initialization
+  onMount(() => {
+    // Fetch data or perform initialization here
+  })
 </script>
 
 <section id="Skills" class="px-8 py-12">
-  <h1 class="mt-6 text-lg font-bold text-gray-900 leading-tight">
-    <span>Skills</span>
-  </h1>
-  <div class="">
-    {#each skills as skill}
-      <div
-        class="px-8 py-3 mx-3 p-6 bg-white border rounded-lg overflow-hidden"
+  <div class="pl-1 py-3 mx-3 px-2 bg-white border rounded-lg overflow-hidden">
+    <h1 class="mt-6 text-lg font-bold text-gray-900 leading-tight">
+      <span>Skills</span>
+    </h1>
+
+    <div class="flex items-center justify-center space-x-4">
+      <button
+        class="px-4 py-2 rounded-lg bg-blue-500 text-white"
+        on:click={selectDefinition}
       >
-        <h3 class="mt-6 text-lg font-bold text-gray-900 leading-tight">
-          {skill.title}
-        </h3>
-        <p class="">{skill.description}</p>
-        <div class="px-8 py-3">
-          <ul class="sm:flex">
-            {#each skill.keywords as entry}
-              <li
-                class="m-1 p-1 sm:w-1/6 rounded-md bg-gray-600 text-white text-sm "
-              >
-                <span class="bar-expand percentage90" />
-                <em>{entry}</em>
-              </li>
-            {/each}
-          </ul>
-        </div>
-      </div>
-    {/each}
+        Navigate
+      </button>
+      <button
+        class="px-4 py-2 rounded-lg bg-blue-500 text-white"
+        on:click={selectStats}
+      >
+        Stats
+      </button>
+    </div>
+
+    {#if $selectedComponent === 'definition'}
+      <TechTree {node} />
+    {:else if $selectedComponent === 'stats'}
+      <Techs {works} />
+    {/if}
   </div>
 </section>
 
-<section id="Languages" class="px-8 py-12">
-  <h1 class="mt-6 text-lg font-bold text-gray-900 leading-tight">
-    <span>Languages</span>
-  </h1>
-  <div class="flex justify-between mt-3">
-    {#each languages as lang}
-      <div
-        class="px-8 py-3 mx-3 p-6 bg-white border rounded-lg overflow-hidden w-1/3"
-      >
-        <h3 class="mt-6 text-lg font-bold text-gray-900 leading-tight">
-          {lang.name}
-        </h3>
-        <p class="">{lang.level} - {lang.fluency}</p>
-      </div>
-    {/each}
-  </div>
-</section>
+<style>
+  /* Add your custom styles here */
+</style>

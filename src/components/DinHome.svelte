@@ -1,7 +1,7 @@
 <script>
   import Header from './Header.svelte'
   import Navigation from './Navigation.svelte'
-  import { resume } from '../stores'
+  import { resume, techs } from '../stores'
   import Banner from './Banner.svelte'
 
   import { componentService, loads } from '../stores'
@@ -26,7 +26,7 @@
   }
 
   let config
-  $: if ($resume) {
+  $: if ($resume && $techs) {
     const {
       basics,
       education,
@@ -50,13 +50,15 @@
         },
       },
       { cpath: './Education', data: { education } },
-      { cpath: './Skills', data: { skills, languages } },
+      // { cpath: './TechTree', data: { node: $techs } },
+      { cpath: './Skills', data: { skills, node: $techs, works } },
+      // { cpath: './Techs', data: { works } },
+      // { cpath: './Work', data: { clients } },
+      { cpath: './Work', data: { works } },
       { cpath: './Projects', data: { projects: portfolio } },
       { cpath: './Projects', data: { projects } },
+      { cpath: './Language', data: { languages } },
       { cpath: './References', data: { references } },
-      { cpath: './Techs', data: { works } },
-      { cpath: './Work', data: { clients } },
-      { cpath: './Work', data: { works } },
       { cpath: './Footer', data: { basics } },
     ]
   }

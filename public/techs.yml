@@ -1,0 +1,101 @@
+- Development:
+    - Java Ecosystem:
+        - Java Frameworks:
+            - - spring
+              - springmvc
+              - struts
+              - jsf
+              - springboot
+              - richfaces
+        - Java Libraries:
+            - - hibernate
+              - jpa
+              - jms
+              - jdbc
+              - jta
+              - jackson
+              - junit
+              - log4j
+              - slf4j
+    - Web Technologies:
+        - - html
+          - css
+          - javascript
+          - jquery
+          - angularjs
+          - react
+          - vue
+        - node: [express]
+        - express: [spring]
+        - struts: [spring]
+        - jboss: [spring]
+        - tomcat: [spring]
+        - weblogic: [spring]
+        - jbpm: [spring]
+        - html: [css, javascript]
+        - css: [javascript, html]
+        - frontend: [html, css, javascript, jquery, angularjs, react, vue]
+        - backend: [node, express, spring, struts, jboss, tomcat, weblogic, jbpm]
+        - database: [dbms, oracle, mysql, postgres, mongodb]
+- DevOps:
+    - Version Control: 
+        - - svn
+          - git
+          - bitbucket
+    - Build Automation: 
+        - - maven
+          - ant
+          - gulp
+    - Continuous Integration: 
+        - - jenkins
+          - circleci
+    - Deployment: 
+        - - docker
+          - heroku
+          - ansible
+          - kubernetes
+          - nginx
+          - shell
+          - ssh
+        - jenkins: [docker, heroku, ansible, kubernetes, nginx, shell, ssh]
+- Testing:
+    - Unit Testing:
+        - - junit
+          - jest
+          - qunit
+    - Functional Testing:
+        - - cucumber
+          - selenium
+          - puppeteer
+          - qtp
+    - Test Management:
+        - - jira
+          - confluence
+- Project Management:
+    - Agile Frameworks:
+        - - agile
+          - rup
+          - scrum
+        - agile: [rup, scrum]
+- Design Patterns:
+    - Architectural Patterns:
+        - - mvc
+          - mvp
+          - mvvm
+        - mvc: [spring]
+        - mvp: [spring]
+        - mvvm: [react, vue]
+- Documentation:
+    - - uml
+      - swagger
+- Other Concepts:
+    - - plsql
+      - soap
+      - rest
+      - web services
+      - xml
+    - html: [xml]
+    - css: [xml]
+    - ci: [maven, jenkins, docker]
+    - cd: [jenkins]
+    - shell: [ssh]
