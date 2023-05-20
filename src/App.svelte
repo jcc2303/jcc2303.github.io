@@ -84,7 +84,7 @@
 
 <main>
   <div class="text-align-center antialiased text-gray-900">
-    <!-- <Home resume={data} /> -->
-    <DinHome />
+    <Home />
+    <!-- <DinHome /> -->
   </div>
 </main>

@@ -386,7 +386,21 @@
         "express",
         "heroku",
         "circleci",
-        "bitbucket"
+        "bitbucket",
+        "gulp",
+        "koa",
+        "marko",
+        "lazo",
+        "html",
+        "css",
+        "javascript",
+        "graphql",
+        "react",
+        "ionic",
+        "angular",
+        "rest",
+        "agile",
+        "mvvm"
       ]
     },
     {
@@ -426,7 +440,7 @@
         "typescript",
         "react",
         "playwright",
-        "QA",
+        "qa",
         "design"
       ]
     },
@@ -472,7 +486,11 @@
         "swarm",
         "services",
         "jenkins",
-        "jira"
+        "jira",
+        "hibernate",
+        "java",
+        "agile",
+        "angular"
       ]
     }
   ],
@@ -496,10 +514,16 @@
         "angularjs",
         "java",
         "ansible",
-        "QA",
+        "qa",
         "design",
         "jenkins",
-        "bitbucket"
+        "bitbucket",
+        "mongodb",
+        "nginx",
+        "rest",
+        "agile",
+        "jquery",
+        "mvvm"
       ]
     },
     {
@@ -523,13 +547,14 @@
         "java",
         "spring",
         "springboot",
-        "JPA",
-        "REST",
-        "Swagger",
+        "jpa",
+        "rest",
+        "swagger",
         "docker",
-        "QA",
-        "design",
-        "Leader"
+        "qa",
+        "maven",
+        "agile",
+        "spring security"
       ]
     },
     {
@@ -548,15 +573,17 @@
       ],
       "stack": [
         "gigya",
-        "Js",
+        "javascript",
         "cucumber",
         "selenium",
         "node",
         "puppeteer",
         "git",
         "jenkins",
-        "Jira",
-        "Confluence"
+        "jira",
+        "confluence",
+        "rest",
+        "agile"
       ]
     },
     {
@@ -575,11 +602,14 @@
       ],
       "stack": [
         "postgres",
-        "C#",
+        "c#",
         "react",
         "node",
         "express",
-        "git"
+        "git",
+        "rest",
+        "agile",
+        "vvm"
       ]
     },
     {
@@ -595,13 +625,17 @@
         "Installation and configuration of different system like Jenkins, maven, sonar, SVN"
       ],
       "stack": [
-        "CI",
-        "CD",
-        "Jenkins",
+        "java",
+        "ci",
+        "cd",
+        "jenkins",
         "maven",
         "shell",
         "ssh",
-        "ant"
+        "ant",
+        "svn",
+        "drupal",
+        "agile"
       ]
     },
     {
@@ -617,10 +651,12 @@
       "stack": [
         "svn",
         "java",
-        "JBPM",
-        "JBoss",
-        "JSF",
-        "QTP"
+        "jbpm",
+        "jboss",
+        "jsf",
+        "qtp",
+        "soa",
+        "uml"
       ]
     },
     {
@@ -638,13 +674,16 @@
       "stack": [
         "svn",
         "java",
-        "Spring",
-        "Struts",
+        "spring",
+        "struts",
         "javascript",
-        "HTML",
+        "html",
         "css",
-        "DBMS",
-        "MySQL"
+        "dbms",
+        "mysql",
+        "soa",
+        "uml",
+        "jquery"
       ]
     },
     {
@@ -662,13 +701,18 @@
       "stack": [
         "svn",
         "java",
-        "J2EE",
-        "EJB",
-        "JTA",
-        "JPA",
-        "DBMS",
-        "Oracle",
-        "SOAP"
+        "j2ee",
+        "ejb",
+        "jta",
+        "jpa",
+        "dbms",
+        "oracle",
+        "soap",
+        "hibernate",
+        "soap",
+        "maven",
+        "spring security",
+        "pl/sql"
       ]
     },
     {
@@ -685,12 +729,26 @@
       "stack": [
         "svn",
         "java",
-        "Richfaces",
-        "Spring",
-        "XML",
+        "j2ee",
+        "ejb",
+        "jms",
+        "jpa",
+        "dbms",
+        "oracle",
+        "hibernate",
+        "xml",
+        "html",
+        "css",
+        "uml",
+        "rup",
+        "tomcat",
+        "weblogic",
+        "maven",
+        "pl/sql",
+        "richfaces",
+        "spring",
         "javascript",
-        "DBMS",
-        "SOAP"
+        "soap"
       ]
     },
     {
@@ -708,12 +766,22 @@
       "stack": [
         "svn",
         "java",
-        "J2EE",
-        "XML",
-        "UML",
-        "EJB",
-        "JMS",
-        "DBMS"
+        "j2ee",
+        "ejb",
+        "jms",
+        "jpa",
+        "dbms",
+        "oracle",
+        "hibernate",
+        "xml",
+        "html",
+        "css",
+        "uml",
+        "rup",
+        "tomcat",
+        "weblogic",
+        "maven",
+        "pl/sql"
       ]
     },
     {
@@ -732,13 +800,21 @@
       "stack": [
         "svn",
         "java",
-        "Spring",
-        "Spring MVC",
-        "Struts",
-        "Tomcat",
-        "DBMS",
-        "Oracle",
-        "SOAP"
+        "spring",
+        "jpa",
+        "spring mvc",
+        "struts",
+        "tomcat",
+        "dbms",
+        "oracle",
+        "pl/sql",
+        "oracle",
+        "soap",
+        "html",
+        "css",
+        "soa",
+        "uml",
+        "rup"
       ]
     },
     {
@@ -755,16 +831,20 @@
       "stack": [
         "svn",
         "java",
-        "J2EE",
-        "WebLogic",
-        "EJB",
-        "JMS",
-        "J2EE",
-        "JTA",
-        "DBMS",
-        "Oracle",
-        "Maven",
-        "SOAP"
+        "weblogic",
+        "j2ee",
+        "ejb",
+        "jms",
+        "jta",
+        "dbms",
+        "oracle",
+        "pl/sql",
+        "maven",
+        "soap",
+        "soa",
+        "web services",
+        "xml",
+        "rup"
       ]
     }
   ]

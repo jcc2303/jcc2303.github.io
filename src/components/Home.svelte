@@ -10,9 +10,8 @@
   import Projects from './Projects.svelte'
   import References from './References.svelte'
   import Footer from './Footer.svelte'
-  import Techs from './Techs.svelte'
 
-  export let resume
+  import { resume, techs } from '../stores'
 
   let navigation,
     basics,
@@ -25,78 +24,38 @@
     references,
     clients
 
-  let techs
-
-  $: if (resume) {
-    basics = resume.basics
-    works = resume.works
-    education = resume.education
-    skills = resume.skills
-    languages = resume.languages
-    projects = resume.projects
-    portfolio = resume.portfolio
-    references = resume.references
-    clients = resume.clients
-  }
-
-  $: if (works) generateSkills(works)
-
-  let wScrollY
-  let wHeight //2044
-
-  function scrollByTillscrollTop(ytop) {
-    if (wScrollY < ytop) {
-      window.scrollBy(0, 5)
-      setTimeout(() => scrollByTillscrollTop(ytop), 10)
-    }
-  }
-
-  function generateSkills(works) {
-    let techsX = []
-    works.forEach(({ stack }) => {
-      stack.forEach((tech) => {
-        techsX.push({ name: tech, months: 0, works: [] })
-      })
-    })
-    techs = techsX
-  }
-
-  function autoScroll() {
-    scrollByTillscrollTop(wScrollY + wHeight)
-  }
-
-  const generatePdfBinded = function (resume) {
-    return () => generatePDF(resume)
-  }
-
-  const generateCoverPdfBinded = function (resume) {
-    return () => generateCoverPDF(resume)
+  $: if ($resume) {
+    basics = $resume.basics
+    works = $resume.works
+    education = $resume.education
+    skills = $resume.skills
+    languages = $resume.languages
+    projects = $resume.projects
+    portfolio = $resume.portfolio
+    references = $resume.references
+    clients = $resume.clients
   }
 </script>
 
-<svelte:window bind:scrollY={wScrollY} bind:innerHeight={wHeight} />
-
-{#if resume}
+{#if $resume}
   <div id="Home">
     <Header>
       <Navigation />
-      <Banner {basics} {autoScroll} />
+      <Banner {basics} />
     </Header>
     <div class="bg-gray-100">
-      <About
-        {basics}
-        generatePdf={generatePdfBinded(resume)}
-        generateCoverPdf={generateCoverPdfBinded(resume)}
-      />
-      <Education {...{ education }} />
-      <Skills {...{ skills, languages }} />
-      <Projects {...{ projects }} />
-      <Projects projects={portfolio} />
-      <References {...{ references }} />
-      {#if techs} <Techs {techs} /> {/if}
-      <Work {...{ works: clients }} />
-      <Work {...{ works }} />
-      <Footer {...{ basics }} />
+      <About />
+      <div class="md:px-4">
+        <Education {...{ education }} />
+        <Skills {skills} {works} node={$techs} />
+        <Work {...{ works: clients }} />
+        <Work {...{ works }} />
+        <Projects {...{ projects }} />
+        <Projects projects={portfolio} />
+        <References {...{ references }} />
+        <!-- {#if techs} <Techs {techs} /> {/if} -->
+        <Footer {...{ basics }} />
+      </div>
     </div>
   </div>
 {/if}

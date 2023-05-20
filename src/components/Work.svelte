@@ -36,8 +36,8 @@
   }
 </script>
 
-<section id="Work" class="px-8 py-12">
-  <div class="pl-1 py-3 mx-3 px-2 bg-white border rounded-lg overflow-hidden">
+<section id="Work">
+  <div class="md:m-4 md:p-4 bg-white border rounded-lg overflow-hidden">
     <div>
       <h1 class="mt-6 text-lg font-bold text-gray-900 leading-tight">
         <span>Work</span>

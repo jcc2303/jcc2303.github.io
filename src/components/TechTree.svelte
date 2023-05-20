@@ -25,7 +25,11 @@
 </script>
 
 {#if node.children.length}
-  <div class="pl-1 py-3 mx-3 px-2 bg-white border rounded-lg overflow-hidden">
+  <div
+    class={`flex-wrap overscroll-y-none wrap w-full overflow-hidden ${
+      expanded ? 'border rounded-lg py-3' : 'm-3'
+    } `}
+  >
     <div class="flex items-center">
       <span class="cursor-pointer" on:click={toggleExpanded}>
         {#if level != 0}
@@ -37,7 +41,7 @@
       </span>
     </div>
     {#if expanded && node.children.length > 0}
-      <div class="ml-4">
+      <div class="w-full ml-1 ${expanded ? 'border rounded-lg' : 'ml-4'}">
         {#each node.children as child}
           <svelte:self node={child} level={level + 1} />
         {/each}
@@ -56,28 +60,3 @@
     </span>
   </span>
 {/if}
-
-<!-- <div class="">
-    {#each skills as skill}
-      <div
-        class="px-8 py-3 mx-3 p-6 bg-white border rounded-lg overflow-hidden"
-      >
-        <h3 class="mt-6 text-lg font-bold text-gray-900 leading-tight">
-          {skill.title}
-        </h3>
-        <p class="">{skill.description}</p>
-        <div class="px-8 py-3">
-          <ul class="sm:flex">
-            {#each skill.keywords as entry}
-              <li
-                class="m-1 p-1 sm:w-1/6 rounded-md bg-gray-600 text-white text-sm "
-              >
-                <span class="bar-expand percentage90" />
-                <em>{entry}</em>
-              </li>
-            {/each}
-          </ul>
-        </div>
-      </div>
-    {/each}
-  </div> -->

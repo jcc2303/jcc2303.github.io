@@ -5,7 +5,7 @@ export const resume = writable(null)
 
 export const searchQuery = writable('')
 
-export const techs = writable(null)
+export const techs = writable({ children: [] })
 
 export const loads = writable([])
 

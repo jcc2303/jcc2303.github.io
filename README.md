@@ -93,7 +93,7 @@ git commit -a --amend -m "[reason]: message" && git push -f
 - github notification
 
 
-
+yarn deploy:gh
 
 
 ## business model

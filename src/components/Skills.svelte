@@ -8,7 +8,7 @@
 
   export let skills = []
 
-  export let node
+  export let node = { children: [] }
   export let works = []
 
   // Store to keep track of the selected component
@@ -28,21 +28,29 @@
   })
 </script>
 
-<section id="Skills" class="px-8 py-12">
-  <div class="pl-1 py-3 mx-3 px-2 bg-white border rounded-lg overflow-hidden">
+<section id="Skills">
+  <div class="md:m-4 md:p-4 bg-white border rounded-lg overflow-hidden">
     <h1 class="mt-6 text-lg font-bold text-gray-900 leading-tight">
       <span>Skills</span>
     </h1>
 
     <div class="flex items-center justify-center space-x-4">
       <button
-        class="px-4 py-2 rounded-lg bg-blue-500 text-white"
+        class={`px-4 py-2 rounded-lg ${
+          $selectedComponent === 'definition'
+            ? 'bg-yellow-600 text-white'
+            : 'bg-gray-500 text-white'
+        } `}
         on:click={selectDefinition}
       >
         Navigate
       </button>
       <button
-        class="px-4 py-2 rounded-lg bg-blue-500 text-white"
+        class={`px-4 py-2 rounded-lg ${
+          $selectedComponent === 'stats'
+            ? 'bg-yellow-600 text-white'
+            : 'bg-gray-500 text-white'
+        } `}
         on:click={selectStats}
       >
         Stats
