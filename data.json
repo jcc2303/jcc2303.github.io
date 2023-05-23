@@ -115,7 +115,9 @@
       "keywords": [
         "js",
         "svelte",
-        "tailwindcss"
+        "tailwindcss",
+        "eslint",
+        "prettier"
       ]
     },
     {
@@ -158,23 +160,10 @@
         "node",
         "express",
         "graphql",
-        "mongo"
-      ]
-    },
-    {
-      "name": "cashout",
-      "publisher": "Javier Cabrera",
-      "category": "Bets",
-      "releaseDate": 2018,
-      "website": "http://cashout-t5.herokuapp.com/",
-      "summary": "An example to show client for bets",
-      "keywords": [
-        "js",
-        "react",
-        "node",
-        "express",
+        "mongo",
+        "apollo client",
         "graphql",
-        "mongo"
+        "bulma"
       ]
     },
     {
@@ -204,7 +193,8 @@
         "node",
         "express",
         "polymer",
-        "mongo"
+        "mongo",
+        "firebase"
       ]
     },
     {
@@ -221,6 +211,22 @@
     }
   ],
   "portfolio": [
+    {
+      "name": "cashout",
+      "publisher": "Javier Cabrera",
+      "category": "Bets",
+      "releaseDate": 2018,
+      "website": "http://cashout-t5.herokuapp.com/",
+      "summary": "An example to show client for bets",
+      "keywords": [
+        "js",
+        "react",
+        "node",
+        "express",
+        "graphql",
+        "mongo"
+      ]
+    },
     {
       "name": "Reinaldo Web Site",
       "publisher": "Javier Cabrera",
@@ -267,58 +273,6 @@
       ]
     }
   ],
-  "skills": [
-    {
-      "title": "Web Development",
-      "description": "Web development for Frontend and Backend with js and java",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Js",
-        "Java",
-        "..."
-      ]
-    },
-    {
-      "title": "Web Testing",
-      "description": "Learned different frameworks for e2e testing",
-      "keywords": [
-        "Test",
-        "E2E",
-        "CI/CD",
-        "Test Runner",
-        "..."
-      ]
-    },
-    {
-      "title": "Persistence Data",
-      "description": "Learned different ways to store data and retrieve it",
-      "keywords": [
-        "DMSDB",
-        "ORM",
-        "PL/SQL",
-        "NoSQL",
-        "..."
-      ]
-    },
-    {
-      "title": "Infrastructure",
-      "description": "Learned about SO and ways to construct infraestructures",
-      "keywords": [
-        "Linux Server",
-        "VMs",
-        "Containers",
-        "Shell",
-        "..."
-      ]
-    }
-  ],
-  "softSkills": [
-    {
-      "title": "Leadership",
-      "description": "leadership by example, where I focus in single task and convert it achivable"
-    }
-  ],
   "volunteer": [
     {
       "organization": "Coderworks",
@@ -354,7 +308,11 @@
         "mongodb",
         "express",
         "html",
-        "css"
+        "css",
+        "vue",
+        "lodash",
+        "underscore",
+        "moment"
       ]
     }
   ],
@@ -400,7 +358,28 @@
         "angular",
         "rest",
         "agile",
-        "mvvm"
+        "mvvm",
+        "axios",
+        "d3",
+        "npm",
+        "yarn",
+        "rollup",
+        "lodash",
+        "underscore",
+        "moment",
+        "bulma",
+        "bootstrap",
+        "nativescript",
+        "gatsby",
+        "chart",
+        "apollo client",
+        "firebase",
+        "redis",
+        "elasticsearch",
+        "neo4j",
+        "arangodb",
+        "mvc",
+        "mvp"
       ]
     },
     {
@@ -411,14 +390,27 @@
       "endDate": "2023-02-01",
       "summary": "Tecla5 is helping amazon with consultancy on software delivery over his engineers.",
       "highlights": [
-        "Experience delivering complete front-to-back authentication solutions guiding engineers to the implementation."
+        "Experience delivering complete front-to-back authentication solutions guiding engineers to the implementation.",
+        "Containerization the application using Docker for improved portability and scalability.",
+        "Exploration cloud services provided by AWS for hosting, scaling, and managing the application.",
+        "Implementation serverless architecture using AWS Lambda for cost efficiency and automatic scaling."
       ],
       "stack": [
         "react",
         "docker",
         "aws",
+        "aws lambda",
         "node",
-        "express"
+        "express",
+        "jest",
+        "mocha",
+        "jasmine",
+        "selenium webdriver",
+        "cypress",
+        "google lighthouse",
+        "lambda",
+        "statex",
+        "redux"
       ]
     },
     {
@@ -441,7 +433,21 @@
         "react",
         "playwright",
         "qa",
-        "design"
+        "design",
+        "cypress",
+        "karma",
+        "chai",
+        "should",
+        "expect",
+        "assert",
+        "sinon",
+        "testing library",
+        "github actions",
+        "google lighthouse",
+        "axios",
+        "tailwindcss",
+        "eslint",
+        "prettier"
       ]
     },
     {
@@ -468,7 +474,11 @@
         "html",
         "css",
         "js",
-        "react"
+        "react",
+        "webpack",
+        "babel",
+        "browserify",
+        "grunt"
       ]
     },
     {
@@ -495,6 +505,34 @@
     }
   ],
   "works": [
+    {
+      "company": "FutureOn",
+      "position": "Frontend Developer",
+      "website": "http://www.futureon.com/",
+      "startDate": "2020-05-01",
+      "endDate": "2020-10-01",
+      "summary": "transformation from ember to svelte techonologies, design and prototiping admin module, also work with webgl",
+      "highlights": [
+        "Experience with the review of legacy systems",
+        "Upgrading all systems to ES7 and modern front-end infrastructure",
+        "Experience with svelte in all fields",
+        "Experience with high security and protocols"
+      ],
+      "stack": [
+        "git",
+        "javascript",
+        "svelte",
+        "webgl",
+        "rest",
+        "tailwindcss",
+        "css",
+        "html",
+        "husky",
+        "k8s",
+        "docker",
+        "kubernetes"
+      ]
+    },
     {
       "company": "SCYTL",
       "position": "Frontend Lead",
@@ -523,7 +561,10 @@
         "rest",
         "agile",
         "jquery",
-        "mvvm"
+        "mvvm",
+        "jest",
+        "istanbul",
+        "protractor"
       ]
     },
     {
@@ -581,9 +622,11 @@
         "git",
         "jenkins",
         "jira",
+        "xray",
         "confluence",
         "rest",
-        "agile"
+        "agile",
+        "sqlite"
       ]
     },
     {
@@ -601,7 +644,7 @@
         "Experience on design information systems, design of application data models and workflow"
       ],
       "stack": [
-        "postgres",
+        "postgresql",
         "c#",
         "react",
         "node",
@@ -609,7 +652,10 @@
         "git",
         "rest",
         "agile",
-        "vvm"
+        "vvm",
+        "next",
+        "material-ui",
+        "mobx"
       ]
     },
     {
@@ -635,7 +681,8 @@
         "ant",
         "svn",
         "drupal",
-        "agile"
+        "agile",
+        "scrum"
       ]
     },
     {
@@ -683,7 +730,12 @@
         "mysql",
         "soa",
         "uml",
-        "jquery"
+        "jquery",
+        "springmvc",
+        "jdbc",
+        "junit",
+        "log4j",
+        "slf4j"
       ]
     },
     {
@@ -844,7 +896,8 @@
         "soa",
         "web services",
         "xml",
-        "rup"
+        "rup",
+        "plsql"
       ]
     }
   ]

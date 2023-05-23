@@ -123,7 +123,7 @@
       releaseDate: 2020
       website: https://jcc2303.github.io/time-life/
       summary: play videos, make resume, save and share it
-      keywords: !!seq [ js , svelte , tailwindcss ]
+      keywords: !!seq [ js , svelte , tailwindcss, eslint, prettier ]
     - 
       name: sign-language
       publisher: Javier Cabrera
@@ -147,15 +147,7 @@
       releaseDate: 2018
       website: http://t5-houses.herokuapp.com/
       summary: It is an example of complete stack, using graphql, where brings maximun flexibility
-      keywords: !!seq [ js , node , express , graphql , mongo ]
-    - 
-      name: cashout
-      publisher: Javier Cabrera
-      category: Bets
-      releaseDate: 2018
-      website: http://cashout-t5.herokuapp.com/
-      summary: An example to show client for bets
-      keywords: !!seq [ js , react, node , express , graphql , mongo ]
+      keywords: !!seq [ js , node , express , graphql , mongo, apollo client, graphql, bulma ]
     - 
       name: Blog
       publisher: Javier Cabrera
@@ -171,7 +163,7 @@
       releaseDate: 2018
       website: http://freewater.herokuapp.com/
       summary: example of polymer from google with the idea to show tap water on any city
-      keywords: !!seq [ js , node , express , polymer , mongo ]  
+      keywords: !!seq [ js , node , express , polymer , mongo, firebase ]  
     - 
       name: Comic
       publisher: Javier Cabrera
@@ -182,6 +174,14 @@
       keywords: !!seq [ js , clojure ]
 
   portfolio:
+    - 
+      name: cashout
+      publisher: Javier Cabrera
+      category: Bets
+      releaseDate: 2018
+      website: http://cashout-t5.herokuapp.com/
+      summary: An example to show client for bets
+      keywords: !!seq [ js , react, node , express , graphql , mongo ]
     - 
       name: Reinaldo Web Site
       publisher: Javier Cabrera
@@ -208,50 +208,6 @@
       keywords: !!seq [ js , html, css, react, svelte ]
     
 
-  skills: 
-    - 
-      title: Web Development
-      description: Web development for Frontend and Backend with js and java
-      keywords: 
-        - HTML
-        - CSS
-        - Js
-        - Java
-        - "..."
-    - 
-      title: Web Testing
-      description: Learned different frameworks for e2e testing
-      keywords: 
-        - Test
-        - E2E
-        - CI/CD
-        - Test Runner
-        - "..."
-    - 
-      title: Persistence Data
-      description: Learned different ways to store data and retrieve it
-      keywords: 
-        - DMSDB
-        - ORM
-        - PL/SQL
-        - NoSQL
-        - "..."
-    - 
-      title: Infrastructure
-      description: Learned about SO and ways to construct infraestructures
-      keywords: 
-        - Linux Server
-        - VMs
-        - Containers
-        - Shell
-        - "..."
-
-
-  softSkills:
-    - 
-      title: Leadership
-      description: leadership by example, where I focus in single task and convert it achivable
-
   volunteer: 
     - 
       organization: Coderworks
@@ -262,7 +218,7 @@
       summary: share our vision, support Codeworks’ mission, and collaborate with our educational activities on multiple levels.
       highlights: 
         - developer assistant for events inside workplace
-      stack:  !!seq [ javascript, react, mongodb, express, html, css ]
+      stack: !!seq [javascript, react, mongodb, express, html, css]
     - 
       organization: Tecla5
       position: Teacher
@@ -271,8 +227,7 @@
       summary: Teaching as private mentor to differents students to learn new technologies.
       highlights: 
         - developer assistant for students
-      stack:  !!seq [ javascript, react, mongodb, express, html, css ]
-
+      stack: !!seq [javascript, react, mongodb, express, html, css, vue, lodash, underscore, moment]
 
   clients: 
     - 
@@ -289,8 +244,7 @@
         - Experience powering apps with data APIs and business logic using micro services for better scalability, flexibility and management
         - Experience with both multi- and single page web apps (MPAs & SPAs).
         - Experience delivering complete front-to-back solutions using our powerful custom tech stack.
-      stack:  !!seq [ mongo, docker, jenkins, graphql, svelte, react, vue, node, express, heroku, circleci, bitbucket, gulp, koa, marko, lazo, html, css, javascript, graphql, react, ionic, angular, rest, agile, mvvm ]
-
+      stack: !!seq [mongo, docker, jenkins, graphql, svelte, react, vue, node, express, heroku, circleci, bitbucket, gulp, koa, marko, lazo, html, css, javascript, graphql, react, ionic, angular, rest, agile, mvvm, axios, d3, npm, yarn, rollup, lodash, underscore, moment, bulma, bootstrap, nativescript, gatsby, chart, apollo client, firebase, redis, elasticsearch, neo4j, arangodb, mvc, mvp ]
     - 
       company: Amazon
       position: Software Engineer Consultant
@@ -300,7 +254,10 @@
       summary: Tecla5 is helping amazon with consultancy on software delivery over his engineers.
       highlights: 
         - Experience delivering complete front-to-back authentication solutions guiding engineers to the implementation.
-      stack:  !!seq [ react, docker, aws, node, express ]
+        - Containerization the application using Docker for improved portability and scalability.
+        - Exploration cloud services provided by AWS for hosting, scaling, and managing the application.
+        - Implementation serverless architecture using AWS Lambda for cost efficiency and automatic scaling.
+      stack: !!seq [react, docker, aws, aws lambda, node, express, jest, mocha, jasmine, selenium webdriver, cypress, google lighthouse, lambda, statex, redux]
     -
       company: Daimler
       position: QA automation
@@ -313,7 +270,7 @@
         - Experience with the lastest technologies in QA automation
         - Experience Agile Process and SAFe
         - Experience with unit testing integration and end to end testing
-      stack:  !!seq [ git, javascript, typescript, react, playwright, qa, design ]             
+      stack: !!seq [git, javascript, typescript, react, playwright, qa, design, cypress, karma, chai, should, expect, assert, sinon, testing library, github actions, google lighthouse, axios, tailwindcss, eslint, prettier ]
     - 
       company: SMI - Ltd
       position: Project Manager and Lead Developer
@@ -327,7 +284,7 @@
         - Spear-heading shift to a multi layered application architecture. Rapid rendering with async server rendering.
         - Developed components with react project. Development GraphQL API with client/server        
         - Experience Agile Process and Scrum
-      stack:  !!seq [ gulp, metalsmith, node, koa, marko, lazo, html, css, js, react ]
+      stack: !!seq [gulp, metalsmith, node, koa, marko, lazo, html, css, js, react, webpack, babel, browserify, grunt]
     - 
       company: Jeagle
       position: CTO and Developer
@@ -337,9 +294,23 @@
       summary: Jeagle infraestructure for your company.
       highlights: 
         - Power the main app with interface and keep project on evolution
-      stack: [ docker, swarm, services, jenkins, jira, hibernate, java, agile, angular ]
+      stack: !!seq [ docker, swarm, services, jenkins, jira, hibernate, java, agile, angular ]
 
-  works: 
+  works:
+    -
+      company: FutureOn
+      position: Frontend Developer
+      website: http://www.futureon.com/
+      startDate: "2020-05-01"
+      endDate: "2020-10-01"
+      summary: transformation from ember to svelte techonologies, design and prototiping admin module, also work with webgl
+      highlights: 
+        - Experience with the review of legacy systems
+        - Upgrading all systems to ES7 and modern front-end infrastructure
+        - Experience with svelte in all fields
+        - Experience with high security and protocols
+      stack: !!seq [git, javascript, svelte, webgl, rest, tailwindcss, css, html, husky, k8s, docker, kubernetes]
+
     -
       company: SCYTL
       position: Frontend Lead
@@ -352,7 +323,7 @@
         - Upgrading all systems to ES7 and modern front-end infrastructure
         - Experience Agile Process and Kanban boards
         - Experience with high security and protocols
-      stack:  !!seq [ git, javascript, angularjs, java, ansible, qa, design, jenkins, bitbucket, mongodb , nginx, rest, agile, jquery, mvvm ]
+      stack: !!seq [git, javascript, angularjs, java, ansible, qa, design, jenkins, bitbucket, mongodb, nginx, rest, agile, jquery, mvvm, jest, istanbul, protractor]
     -
       company: Audi
       position: Architect
@@ -367,8 +338,7 @@
         - Experience on design information systems, design of application data models and workflow  
         - Design of application APIs using suitable frameworks
         - Design and implementation solution with authentication and authorization
-      stack:  !!seq [ svn, git, java, spring, springboot, jpa, rest, swagger, docker, qa, maven, agile, spring security ]
-      # design, Leader
+      stack: !!seq [svn, git, java, spring, springboot, jpa, rest, swagger, docker, qa, maven, agile, spring security]
     - 
       company: Nestle
       position: QA Automation Testing
@@ -382,7 +352,7 @@
         - Management of jobs and the deployment applications on Jenkins. 
         - Delivery of architectural components and monitorizing deployments.
         - Reporting & Prototyping with Js
-      stack:  !!seq [ gigya, javascript, cucumber, selenium, node, puppeteer, git, jenkins, jira, confluence, rest, agile ]
+      stack: !!seq [gigya, javascript, cucumber, selenium, node, puppeteer, git, jenkins, jira, xray, confluence, rest, agile, sqlite]
     - 
       company: Homes-ag
       position: CTO and Lead Developer
@@ -396,7 +366,7 @@
         - Design the base for the react client for the indexer app.
         - Design scraping and api to consumed for the front-end.
         - Experience on design information systems, design of application data models and workflow  
-      stack:  !!seq [ postgres, c#, react, node, express, git, rest, agile, vvm ]
+      stack: !!seq [postgresql, c#, react, node, express, git, rest, agile, vvm, next, material-ui, mobx]
     - 
       company: HP
       position: Automation Developer and QA Test Developer
@@ -408,7 +378,7 @@
         - Designing and implement the Continuous Integration and Delivery (CI/CD) in the SMS project
         - Design and integration of every component for testing with maven using BDD methodology. 
         - Installation and configuration of different system like Jenkins, maven, sonar, SVN
-      stack:  !!seq [ java, ci, cd, jenkins, maven, shell, ssh, ant, svn, drupal, agile ]
+      stack: !!seq [java, ci, cd, jenkins, maven, shell, ssh, ant, svn, drupal, agile, scrum]
     - 
       company: Aigues de Barcelona
       position: Architect and Developer
@@ -418,7 +388,7 @@
       summary: Aigues de Barcelona, with system ticket for report problems with the bills
       highlights: 
         - Working with Migration application technology, designing work flow process with JBPM in AquaGest system
-      stack:  !!seq [ svn, java, jbpm, jboss, jsf, qtp, soa, uml ]
+      stack: !!seq [svn, java, jbpm, jboss, jsf, qtp, soa, uml]
     - 
       company: SCYTL
       position: Architect and Develper
@@ -430,7 +400,7 @@
         - develop applications using cryptographic protocols that secure the election
         - Architect Design and implement and responsible on production for assigned election projects
         - lead project based on J2EE
-      stack:  !!seq [ svn, java, spring, struts, javascript, html, css, dbms, mysql, soa, uml, jquery ]
+      stack: !!seq [svn, java, spring, struts, javascript, html, css, dbms, mysql, soa, uml, jquery, springmvc, jdbc, junit, log4j, slf4j]
     - 
       company: TDA
       position: Analyst and Developer
@@ -442,7 +412,7 @@
         - Maintenance and new functionalities of the core software in a company of Asset Securitization 
         - Development of finance and high transactional functionalities
         - Deep undertanding of reltional databases and PL/SQL
-      stack:  !!seq [ svn, java, j2ee, ejb, jta, jpa, dbms, oracle, soap, hibernate, soap, maven, spring security, pl/sql ]
+      stack: !!seq [svn, java, j2ee, ejb, jta, jpa, dbms, oracle, soap, hibernate, soap, maven, spring security, pl/sql]
     - 
       company: Registradores de España
       position: Analyst and Developer
@@ -453,7 +423,7 @@
       highlights: 
         - Optimization and maintenance of electronic signature of documents by the Registrar's College in Spain.
         - Migration of business logic and creation application of management ased on telemetries technologies and remote signature
-      stack:  !!seq [svn, java, j2ee, ejb, jms, jpa, dbms, oracle, hibernate, xml, html, css, uml, rup, tomcat, weblogic, maven, pl/sql, richfaces, spring, javascript, soap ]
+      stack: !!seq [svn, java, j2ee, ejb, jms, jpa, dbms, oracle, hibernate, xml, html, css, uml, rup, tomcat, weblogic, maven, pl/sql, richfaces, spring, javascript, soap]
     - 
       company: Digitel TIM
       position: Business Systems Specialist
@@ -465,7 +435,7 @@
         - Management Webservices Web Services, EJB, JMS, based on J2EE
         - Analysis, design and implementation Web Projects
         - Sockets and connections to other legacy systems, database connections and servers
-      stack:  !!seq [ svn, java, j2ee, ejb, jms, jpa, dbms, oracle, hibernate, xml, html, css, uml, rup, tomcat, weblogic, maven, pl/sql]
+      stack: !!seq [svn, java, j2ee, ejb, jms, jpa, dbms, oracle, hibernate, xml, html, css, uml, rup, tomcat, weblogic, maven, pl/sql]
     - 
       company: Movilnet
       position: Lead Developer
@@ -478,7 +448,7 @@
         - Delegate task to the team
         - Responsable for deploy on production
         - Deep undertanding of reltional databases and PL/SQL        
-      stack:  !!seq [ svn, java, spring, jpa, spring mvc, struts, tomcat, dbms, oracle, pl/sql, oracle, soap , html, css ,soa, uml, rup ]
+      stack: !!seq [svn, java, spring, jpa, spring mvc, struts, tomcat, dbms, oracle, pl/sql, oracle, soap, html, css, soa, uml, rup]
     - 
       company: Movistar
       position: Developer
@@ -489,21 +459,4 @@
       highlights:
         - maintenance and creation functionalities over post-paid mobile architecture system developed in J2EE
         - Deep undertanding of UML, and implementation of requirements
-      stack: !!seq [svn, java, weblogic, j2ee, ejb, jms, jta, dbms, oracle, pl/sql, maven, soap, soa ,web services ,xml, rup ]
-
-# stack caterogies:
-# - Version Control:
-# - Backend:
-# - Frontend Frameworks:
-# - Web Technologies:
-# - UI Frameworks:
-# - Architecture and Patterns:
-# - APIs and Protocols:
-# - Software Development Methodology:
-# - Server:
-# - Build and Dependency Management:
-# - Web Services:
-# - Database:
-# - Build Tools:
-# - Additional
-# - DevOps:
+      stack: !!seq [svn, java, weblogic, j2ee, ejb, jms, jta, dbms, oracle, pl/sql, maven, soap, soa ,web services ,xml, rup, plsql ]
