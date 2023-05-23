@@ -48,7 +48,7 @@
 
   function findCompany(company) {
     searchQuery.set(company)
-    scrollToWorks()
+    // scrollToWorks()
   }
 </script>
 

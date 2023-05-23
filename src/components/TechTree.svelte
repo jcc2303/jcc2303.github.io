@@ -1,10 +1,10 @@
 <script>
-  import { searchQuery } from '../stores'
+  import { searchQuery, definitions } from '../stores'
 
   export let node
   export let level = 0
 
-  $: console.log(node)
+  // $: console.log(node)
 
   let expanded = false
   $: expanded = !!(level == 0)
@@ -19,8 +19,11 @@
   }
 
   const addSearch = () => {
-    searchQuery.set(node.name)
-    scrollToWorks()
+    searchQuery.set(
+      $searchQuery
+        ? $searchQuery.split(',').concat(node.name.trim()).join(',')
+        : node.name.trim()
+    )
   }
 </script>
 
@@ -34,8 +37,8 @@
       <span class="cursor-pointer" on:click={toggleExpanded}>
         {#if level != 0}
           <span class="cursor-pointer text-gray-500 ">
-            {expanded ? '▼' : '►'}
-            {node.name}
+            <strong class="pr-2">{expanded ? '▼' : '►'}{node.name}</strong>
+            {expanded ? '' : $definitions[node.name] || ''}
           </span>
         {/if}
       </span>

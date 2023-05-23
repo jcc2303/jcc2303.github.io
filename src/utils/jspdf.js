@@ -108,32 +108,32 @@ function generatePDF(resume) {
   })
 
   // SKILLS
-  newLineY(10)
-  doc.text('Skills', MARGIN, newLineY())
-  doc.line(20, cursorY + 2, doc.internal.pageSize.width - MARGIN, cursorY + 2) // horizontal line
-  newLineY()
+  // newLineY(10)
+  // doc.text('Skills', MARGIN, newLineY())
+  // doc.line(20, cursorY + 2, doc.internal.pageSize.width - MARGIN, cursorY + 2) // horizontal line
+  // newLineY()
 
   // eslint-disable-next-line array-callback-return
-  resume.skills.map((x) => {
-    const { title, description, keywords = [] } = x
-    // newLineY()
-    doc
-      .setFontSize(10)
-      .setFont('times')
-      .setFontType('bold')
-      .text(title, MARGIN + 10, newLineY(5))
-      .setFontType('italic')
-      .text(`${description}`, MARGIN + 105, cursorY)
+  // resume.skills.map((x) => {
+  //   const { title, description, keywords = [] } = x
+  //   // newLineY()
+  //   doc
+  //     .setFontSize(10)
+  //     .setFont('times')
+  //     .setFontType('bold')
+  //     .text(title, MARGIN + 10, newLineY(5))
+  //     .setFontType('italic')
+  //     .text(`${description}`, MARGIN + 105, cursorY)
 
-    doc.text(
-      keywords.join(' | '),
-      doc.internal.pageSize.width - MARGIN,
-      cursorY,
-      null,
-      null,
-      'right'
-    )
-  })
+  //   doc.text(
+  //     keywords.join(' | '),
+  //     doc.internal.pageSize.width - MARGIN,
+  //     cursorY,
+  //     null,
+  //     null,
+  //     'right'
+  //   )
+  // })
 
   // EXPERIENCE
   newLineY(10)

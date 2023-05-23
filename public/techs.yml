@@ -1,101 +1,315 @@
-- Development:
-    - Java Ecosystem:
-        - Java Frameworks:
-            - - spring
-              - springmvc
+---
+  definitions: 
+    Programming Languages: Formal language for creating computer programs.
+    Documentation: Information and instructions about software.
+    Development: The process of creating software applications or systems.
+    Java Ecosystem: The collection of tools, frameworks, and libraries for Java development.
+    Java Frameworks: Frameworks built on top of Java for web or application development.
+    Java Libraries: Reusable code components and utilities for Java development.
+    Web Technologies: Technologies used for building websites and web applications.
+    Testing Frameworks: Tools and frameworks for automating and managing software testing.
+    Functional Testing: Testing software functionalities and features.
+    JavaScript Ecosystem: The collection of tools, frameworks, and libraries for JavaScript development.
+    JavaScript Frameworks: Frameworks built on top of JavaScript for web or application development.
+    JavaScript Libraries: Reusable code components and utilities for JavaScript development.
+    Package Managers: Tools for managing and installing software packages and dependencies.
+    Build Tools: Tools for automating the build process of software applications.
+    Unit Testing: Testing individual units or components of software.
+    Integration Testing: Testing the interaction between different components or systems.
+    Test Runners: Tools for executing and managing automated tests.
+    Assertion Libraries: Libraries for defining and checking expected test outcomes.
+    Mocking Libraries: Tools for creating mock objects or simulating dependencies in tests.
+    Code Coverage: Measurement of the extent to which the source code is tested.
+    Snapshot Testing: Testing the visual appearance or behavior of UI components.
+    E2E Testing: Testing the entire application flow from start to finish.
+    Performance Testing: Testing the performance and scalability of software.
+    Test Utilities: Tools and utilities for supporting testing activities.
+    CI/CD Integration: Integrating testing and deployment processes into continuous integration and continuous deployment pipelines.
+    Visual Regression Testing: Testing for unintended visual changes in UI components.
+    Accessibility Testing: Testing the accessibility of software for users with disabilities.
+    Test Management: Tools and processes for managing and organizing tests.
+    Backend: The server-side part of a software application or system.
+    Server-Side Frameworks: Frameworks for building server-side applications or APIs.
+    Node: A JavaScript runtime environment for executing server-side JavaScript code.
+    UI Frameworks: Frameworks for building user interfaces.
+    Mobile App Frameworks: Frameworks for building mobile applications.
+    Static Site Generators: Tools for generating static websites.
+    Data Visualization: Tools and libraries for visualizing data.
+    State Management: Approaches and tools for managing application state.
+    GraphQL Clients: Libraries for consuming GraphQL APIs.
+    Backend as a Service: Platforms or services that provide backend infrastructure and functionality.
+    Serverless Frameworks: Frameworks for building serverless applications.
+    Code Quality & Linting: Tools and practices for ensuring code quality and adherence to coding standards.
+    Continuous Integration/Deployment: Practices and tools for automating software integration and deployment processes.
+    # Web Technologies: Technologies used for building websites and web applications.
+    Frontend: The client-side part of a software application or system.
+    Databases: Storage systems for managing structured data.
+    Relational Databases: Databases based on the relational data model.
+    NoSQL Databases: Databases that do not use the traditional relational data model.
+    Graph Databases: Databases optimized for storing and querying graph-like data.
+    DevOps: A set of practices that combine software development and IT operations.
+    Version Control: Systems for tracking and managing changes to source code.
+    Build Automation: Tools for automating the build process of software applications.
+    Continuous Integration: Practices and tools for automating the integration of code changes.
+    Deployment: The process of deploying software applications to production environments.
+    Project Management: Approaches and frameworks for managing projects.
+    Agile Frameworks: Frameworks that support the Agile software development approach.
+    Design Patterns: Reusable solutions to commonly occurring design problems.
+
+  relations:
+    - Programming Languages:
+      - java
+      - javascript
+      - C#
+      - Python
+      - lisp
+      - Matlab
+      - Clojure
+    - Development:
+        - Development Tools:
+          - Nx
+          - Lerna
+        - JavaScript Ecosystem:
+          - typescript
+          - JavaScript Frameworks:
+              - Svelte
+              - React
+              - Vue
+              - Angular
+          - JavaScript Libraries:
+              - lodash
+              - Underscore
+              - Moment
+              - Axios
+              - D3
+              - Web3 Integration: 
+                - web3
+                - ethers
+          - Package Managers:
+              - npm
+              - Yarn
+          - Build Tools:
+              - rollup
+              - webpack
+              - Babel
+              - browserify
+              - Gulp
+              - Grunt
+          - Testing Frameworks:
+            - Unit Testing:
+              - Jest
+              - Mocha
+              - Jasmine
+            - Functional Testing:
+              - Selenium WebDriver
+              - Puppeteer
+              - Cypress
+              - cucumber
+              - Protractor
+              # - Nightwatch
+              # - WebdriverIO
+            - Integration Testing:
+              - Cypress
+              - Puppeteer
+              # - TestCafe
+              # - Nightwatch
+              # - WebdriverIO
+            - Test Runners:
+              - Karma
+              # - Testem
+            - Assertion Libraries:
+              - Chai
+              # - Jasmine Matchers
+              - Should
+              - Expect
+              - Assert
+            - Mocking Libraries:
+              - Sinon
+              # - testdouble
+            - Code Coverage:
+              # - Istanbul (nyc)
+              - Jest
+              - Istanbul
+            - Snapshot Testing:
+              - Jest
+            - E2E Testing:
+              - playwright
+              - Cypress
+              - Puppeteer
+              # - TestCafe
+              # - Nightwatch
+              # - WebdriverIO
+            - Performance Testing:
+              - Google Lighthouse
+              # - Artillery
+              # - Apache JMeter
+            - Test Utilities:
+              # - Enzyme
+              - Testing Library
+              # - Vue Test Utils
+              # - React Testing Utilities
+            - CI/CD Integration:
+              - GitHub Actions
+              - Jenkins
+              - CircleCI
+              # - Travis CI
+              # - GitLab CI/CD
+            # - Visual Regression Testing:
+              # - Percy
+              # - Backstop
+              # - Cypress + Applitools
+            - Accessibility Testing:
+              # - Axe
+              # - Pa11y
+              - Google Lighthouse
+            - Test Management:
+                - - jira
+                  - confluence
+                  - xray
+          - backend:
+            - Server-Side Frameworks:
+              - node:
+                - Express
+                - Next
+                - Koa
+                - Marko
+              - database:
+                - prisma
+                - Sequelize
+          - UI Frameworks:
+              - TailwindCSS
+              - Material-UI
+              - Bulma
+              - Bootstrap
+          - Mobile App Frameworks:
+              - NativeScript
+              - Ionic
+              # - React Native
+          - Static Site Generators:
+              - Gatsby
+              - Next
+              # - Nuxt
+          - Data Visualization:
+              - Chart
+              # - Highcharts
+              # - Plotly
+              # - ApexCharts
+          - State Management:
+              - stateX
+              - MobX
+              - Redux
+              # - Vuex
+              # - Zustand
+          - GraphQL Clients:
+              - Apollo Client
+              # - Relay
+              # - Urql
+          - Backend as a Service:
+              - Firebase
+              # - Parse
+              # - Supabase
+              # - Hasura
+          - Serverless Frameworks:
+              - AWS Lambda
+              # - Azure Functions
+              # - Google Cloud Functions
+              # - Netlify Functions
+          - Code Quality & Linting:
+              - ESLint
+              - Prettier
+              - Husky
+              # - lint-staged
+          - Continuous Integration/Deployment:
+              - GitHub Actions
+              - Jenkins
+              # - Travis CI
+              # - CircleCI
+          - Web Technologies:
+            # - frontend: []
+            - html
+            - css
+            - javascript
+            - soap
+            - rest
+            - web services
+            - xml
+        - Java Ecosystem:
+            - Java Frameworks:
+                - - spring
+                  - springmvc
+                  - struts
+                  - jsf
+                  - springboot
+                  - richfaces
+            - Java Libraries:
+                - - hibernate
+                  - jpa
+                  - jdbc
+                  - jta
+                  - jms
+                  # - jackson
+                  - junit
+                  - log4j
+                  - slf4j
+            - Web Technologies:
               - struts
-              - jsf
-              - springboot
-              - richfaces
-        - Java Libraries:
-            - - hibernate
-              - jpa
-              - jms
-              - jdbc
-              - jta
-              - jackson
-              - junit
-              - log4j
-              - slf4j
-    - Web Technologies:
-        - - html
-          - css
-          - javascript
-          - jquery
-          - angularjs
-          - react
-          - vue
-        - node: [express]
-        - express: [spring]
-        - struts: [spring]
-        - jboss: [spring]
-        - tomcat: [spring]
-        - weblogic: [spring]
-        - jbpm: [spring]
-        - html: [css, javascript]
-        - css: [javascript, html]
-        - frontend: [html, css, javascript, jquery, angularjs, react, vue]
-        - backend: [node, express, spring, struts, jboss, tomcat, weblogic, jbpm]
-        - database: [dbms, oracle, mysql, postgres, mongodb]
-- DevOps:
-    - Version Control: 
-        - - svn
-          - git
-          - bitbucket
-    - Build Automation: 
-        - - maven
-          - ant
-          - gulp
-    - Continuous Integration: 
-        - - jenkins
-          - circleci
-    - Deployment: 
-        - - docker
-          - heroku
-          - ansible
-          - kubernetes
-          - nginx
-          - shell
-          - ssh
-        - jenkins: [docker, heroku, ansible, kubernetes, nginx, shell, ssh]
-- Testing:
-    - Unit Testing:
-        - - junit
-          - jest
-          - qunit
-    - Functional Testing:
-        - - cucumber
-          - selenium
-          - puppeteer
-          - qtp
-    - Test Management:
-        - - jira
-          - confluence
-- Project Management:
-    - Agile Frameworks:
-        - - agile
-          - rup
-          - scrum
-        - agile: [rup, scrum]
-- Design Patterns:
-    - Architectural Patterns:
-        - - mvc
-          - mvp
-          - mvvm
-        - mvc: [spring]
-        - mvp: [spring]
-        - mvvm: [react, vue]
-- Documentation:
-    - - uml
-      - swagger
-- Other Concepts:
-    - - plsql
-      - soap
-      - rest
-      - web services
-      - xml
-    - html: [xml]
-    - css: [xml]
-    - ci: [maven, jenkins, docker]
-    - cd: [jenkins]
-    - shell: [ssh]
+              - jboss
+              - tomcat
+              - weblogic
+            - jbpm
+
+            - Testing Frameworks:
+              - Functional Testing:
+                  - qtp
+        - Web Tecnologgies:
+          - Browser Extensions:
+            - metamask
+        - Databases:
+          - dbms
+          - plsql
+          - Relational Databases:
+            - MySQL
+            - PostgreSQL
+            - Oracle
+            - SQLite
+          - NoSQL Databases:
+            - MongoDB
+            - Redis
+            - Elasticsearch
+          - Graph Databases:
+            - Neo4j
+            - ArangoDB
+        - DevOps:
+            - Version Control: 
+                - - svn
+                  - git
+                  - bitbucket
+            - Build Automation: 
+                - - maven
+                  - ant
+                  - gulp
+            - Continuous Integration: 
+                - - jenkins
+                  - circleci
+            - Deployment: 
+                - - docker
+                  - heroku
+                  - ansible
+                  - kubernetes
+                  - nginx
+                  - shell
+                  - ssh
+                  - jenkins
+    - Project Management:
+        - Agile Frameworks:
+            - - agile
+              - rup
+              - scrum
+    - Design Patterns:
+        - Architectural Patterns:
+            - - mvc
+              - mvp
+              - mvvm
+    - Documentation:
+        - - uml
+          - swagger

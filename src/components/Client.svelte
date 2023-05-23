@@ -4,24 +4,17 @@
 
   import { searchQuery } from '../stores'
 
-  export let works = []
+  export let clients = []
 
-  let filteredWorks = []
-  $: filteredWorks = works.filter((work) =>
-    formatSearch($searchQuery).every(
-      (q) =>
-        work.company.toLowerCase().includes(q) ||
-        work.stack.some((s) => s.toLowerCase().includes(q))
+  let filteredClients = []
+  $: filteredClients = clients.filter((client) => {
+    return (
+      client.company.toLowerCase().includes($searchQuery.toLowerCase()) ||
+      client.stack.some((s) =>
+        s.toLowerCase().includes($searchQuery.toLowerCase())
+      )
     )
-  )
-
-  function formatSearch($searchQuery) {
-    return $searchQuery
-      .toLowerCase()
-      .split(',')
-      .map((x) => x.trim().split(','))
-      .flat()
-  }
+  })
 
   const formatter = new Intl.DateTimeFormat('en-US', {
     month: 'long',
@@ -43,39 +36,39 @@
   }
 </script>
 
-<section id="Work">
+<section id="Client">
   <div class="md:m-4 md:p-4 bg-white border rounded-lg overflow-hidden">
     <div>
       <h1 class="mt-6 text-lg font-bold text-gray-900 leading-tight">
-        <span>Work</span>
+        <span>Client</span>
       </h1>
     </div>
-    <div>
-      {#each filteredWorks as work}
+    <div class="">
+      {#each filteredClients as client}
         <div class="m-3 p-6 bg-white border rounded-lg overflow-hidden">
-          <a class="dark-link" href={work.website}>
-            <img src={work.image} alt="" />
+          <a class="dark-link" href={client.website}>
+            <img src={client.image} alt="" />
             <h4 class="text-lg font-bold text-yellow-400 leading-tight">
-              {work.company}
+              {client.company}
             </h4>
           </a>
           <div class="font-semibold flex justify-between">
-            <p>{work.position}</p>
-            {#if work.startDate}
+            <p>{client.position}</p>
+            {#if client.startDate}
               <p class="text-gray-500 text-sm uppercase">
-                <em class="">{formatDateMonthYear(work.startDate)}</em> -
+                <em class="">{formatDateMonthYear(client.startDate)}</em> -
                 <em class=""
-                  >{formatDateMonthYear(work.endDate) || 'current'}</em
+                  >{formatDateMonthYear(client.endDate) || 'current'}</em
                 >
               </p>
             {/if}
           </div>
           <div class="p-3">
-            <p class="text-gray-700 text-sm ">{work.summary}</p>
-            <p>{work.highlights}</p>
+            <p class="text-gray-700 text-sm ">{client.summary}</p>
+            <p>{client.highlights}</p>
           </div>
           <div class="sm:flex p-3">
-            {#each work.stack as tech}
+            {#each client.stack as tech}
               <p class="m-1 p-1 rounded-md bg-gray-600 text-white text-sm ">
                 {tech}
               </p>

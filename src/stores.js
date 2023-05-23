@@ -6,6 +6,7 @@ export const resume = writable(null)
 export const searchQuery = writable('')
 
 export const techs = writable({ children: [] })
+export const definitions = writable({})
 
 export const loads = writable([])
 
@@ -28,3 +29,12 @@ export const componentService = (() => {
     closeComponent,
   }
 })()
+
+export const componentVisibility = writable({
+  showEducation: false,
+  // showSkills: false,
+  showWork: false,
+  showClient: false,
+  showProjects: false,
+  showReferences: false,
+})
