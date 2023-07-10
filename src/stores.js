@@ -16,7 +16,6 @@ export const componentVisibility = writable({
   showReferences: false,
 })
 
-
 export const loads = writable([])
 // Define the component service
 export const componentService = (() => {
@@ -37,4 +36,3 @@ export const componentService = (() => {
     closeComponent,
   }
 })()
-
