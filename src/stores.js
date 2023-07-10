@@ -2,14 +2,22 @@
 import { writable } from 'svelte/store'
 
 export const resume = writable(null)
-
-export const searchQuery = writable('')
-
 export const techs = writable({ children: [] })
 export const definitions = writable({})
 
-export const loads = writable([])
+export const searchQuery = writable('')
 
+export const componentVisibility = writable({
+  showEducation: false,
+  // showSkills: false,
+  showWork: false,
+  showClient: false,
+  showProjects: false,
+  showReferences: false,
+})
+
+
+export const loads = writable([])
 // Define the component service
 export const componentService = (() => {
   const { subscribe, set } = writable([])
@@ -30,11 +38,3 @@ export const componentService = (() => {
   }
 })()
 
-export const componentVisibility = writable({
-  showEducation: false,
-  // showSkills: false,
-  showWork: false,
-  showClient: false,
-  showProjects: false,
-  showReferences: false,
-})

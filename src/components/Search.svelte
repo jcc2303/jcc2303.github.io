@@ -66,7 +66,7 @@
 </script>
 
 <section class="container mx-auto p-4">
-  <div class="items-center justify-center mb-4 flex justify-between">
+  <div class="items-center mb-4 flex justify-between">
     <button
       class="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600"
       on:click={openSearch}
