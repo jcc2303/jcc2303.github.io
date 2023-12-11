@@ -10,7 +10,7 @@
   $: filteredClients = clients.filter((client) => {
     return (
       client.company.toLowerCase().includes($searchQuery.toLowerCase()) ||
-      client.stack.some((s) =>
+      client?.stack?.some((s) =>
         s.toLowerCase().includes($searchQuery.toLowerCase())
       )
     )
@@ -68,7 +68,7 @@
             <p>{client.highlights}</p>
           </div>
           <div class="sm:flex p-3">
-            {#each client.stack as tech}
+            {#each client?.stack as tech}
               <p class="m-1 p-1 rounded-md bg-gray-600 text-white text-sm ">
                 {tech}
               </p>
