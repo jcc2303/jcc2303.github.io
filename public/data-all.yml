@@ -249,25 +249,15 @@
       company: Amazon
       position: Software Engineer Consultant
       website: https://amazon.com
-      startDate: "2023-05-01"
-      endDate: "2023-09-01"
+      startDate: "2022-10-01"
+      endDate: "2023-02-01"
       summary: Tecla5 is helping amazon with consultancy on software delivery over his engineers.
       highlights: 
         - Experience delivering complete front-to-back authentication solutions guiding engineers to the implementation.
         - Containerization the application using Docker for improved portability and scalability.
         - Exploration cloud services provided by AWS for hosting, scaling, and managing the application.
         - Implementation serverless architecture using AWS Lambda for cost efficiency and automatic scaling.
-      stack: !!seq [react, nextjs, jest, mocha, cypress, google lighthouse, xstate, redux, docker, aws, aws lambda, node, express ]
-    - 
-      company: Mintlayer
-      position: Software Engineer
-      website: https://mintlayer.com
-      startDate: "2022-02-01"
-      endDate: "2023-03-01"
-      summary:  future-proof blockchain that improves direct token interoperability and enables ways to trade value, create systems, functionalities, and participate in truly trustless finance.
-      highlights: 
-        - Experience web3, ether, wallet, metamask, nextjs, nestjs, smart contract, liquidity pool
-      stack: !!seq [react, github actions, heroku, node, express, jest, playwright, cypress, chrome extension, google lighthouse]
+      stack: !!seq [react, docker, aws, aws lambda, node, express, jest, mocha, jasmine, selenium webdriver, cypress, google lighthouse, lambda, statex, redux]
     -
       company: Daimler
       position: QA automation
