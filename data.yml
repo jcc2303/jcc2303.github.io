@@ -389,10 +389,6 @@
         - Collaborated with security teams to ensure compliance with election integrity standards.
       stack: !!seq [git, javascript, angularjs, java, ansible, qa, design, jenkins, bitbucket, mongodb, nginx, rest, agile, jquery, mvvm, jest, istanbul, protractor]
 
-
-
-
-
     -
       company: Audi
       position: Architect
